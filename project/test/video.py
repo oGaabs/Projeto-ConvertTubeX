@@ -40,7 +40,6 @@ from pytube import Playlist, YouTube
 
 class Video:
     """docstring for ClassName."""
-
     def __init__(self, user_dir, format_type):
         self._user_dir = user_dir
         self._format_type = format_type
@@ -67,10 +66,10 @@ class Video:
     @format_type.setter
     def format_type(self, format_type):
         if format_type is not None and format_type.lower() in (
-            "mp3",
-            "audio",
-            "mp3",
-            "video",
+                "mp3",
+                "audio",
+                "mp3",
+                "video",
         ):
             self._format_type = format_type.lower()
         else:
@@ -109,12 +108,14 @@ class Video:
             playlist = Playlist(video)
             for url in playlist.video_urls:
                 video = "youtu.be" + url[url.rfind("/"):]
-                self._video_list.append(video)
-                self._video_cont += 1
+                if self._video_list.count(video) == 0:
+                    self._video_list.append(video)
+                    self._video_cont += 1
         else:
             video = "youtu.be" + video[video.rfind("/"):]
-            self._video_list.append(video)
-            self._video_cont += 1
+            if self._video_list.count(video) == 0:
+                self._video_list.append(video)
+                self._video_cont += 1
 
     def remove(self, video_link):
         self._video_list.remove(video_link)
@@ -135,10 +136,8 @@ class Video:
 
     def salva_mp3(self, path, yt, separador):
         subtype: str = "mp4"
-        stream = (
-            yt.streams.filter(only_audio=True, subtype=subtype
-                              ).order_by("abr").last()
-        )
+        stream = (yt.streams.filter(only_audio=True,
+                                    subtype=subtype).order_by("abr").last())
         stream.download(path)
         try:
             self.convert_mp3(path, stream)
@@ -153,17 +152,16 @@ class Video:
             )
 
     def salva_mp4(self, path, yt):
-        stream = (
-            yt.streams.filter(file_extension="mp4", progressive=True)
-            .order_by("resolution")
-            .last()
-        )
+        stream = (yt.streams.filter(
+            file_extension="mp4",
+            progressive=True).order_by("resolution").last())
         stream.download(path)
+        self.clear()
 
     def convert_mp3(self, path, stream):
         clip = AudioClip(str(stream.download(path)))
-        clip.write_audiofile(str(stream.download(path)
-                                 ).replace(".mp4", ".mp3"))
+        clip.write_audiofile(
+            str(stream.download(path)).replace(".mp4", ".mp3"))
         os.remove(str(stream.download(path)))
 
     def is_playlist(self, link):
@@ -176,7 +174,8 @@ class Video:
         fmt_type = self._format_type
         separador = "-" * 30 + "\n"
         status = (separador + "Pasta: " + path + "\n"
-                  "Formato: " + fmt_type.upper())
+                  "Formato: " + fmt_type.upper() + "\n"
+                  "Quantidade de vídeos: " + str(len(self._video_list)))
 
         for i in self._video_list:
             try:
@@ -188,11 +187,11 @@ class Video:
                 print("Link: " + i + "\n")
                 if fmt_type in ("mp3", "audio", ""):
                     self.salva_mp3(path, yt, separador)
+                elif fmt_type in ("mp4", "video"):
+                    self.salva_mp4(path, yt)
                 else:
-                    if fmt_type in ("mp4", "video"):
-                        self.salva_mp4(path, yt)
-                    else:
-                        print("Formato incorreto ou não disponível!")
+                    print("Formato incorreto ou não disponível!")
             except Exception as erro:
                 print("Erro de conexão", erro)
         self.clear_list()
+        print(status + "\n" + separador)

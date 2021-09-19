@@ -1,6 +1,5 @@
 class Stats:
     """docstring for Stats."""
-
     def __init__(self):
         self._status_list = []
         self._status_list_cont = 0
@@ -10,11 +9,8 @@ class Stats:
     @property
     def status_list(self):
         """The status property."""
-        return (
-            self.separador_cima
-            + "\n".join(map(str, self._status_list))
-            + self.separador_baixo
-        )
+        return (self.separador_cima + "\n".join(
+            map(str, self._status_list)) + self.separador_baixo)
 
     @status_list.setter
     def status_list(self, value):

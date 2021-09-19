@@ -28,19 +28,17 @@ def main():
             video = input("#> Digite o link do video ou end para finalizar: ")
             if (video_cont != 0) and (video in ("", "end")):
                 end_list = True
+            elif ("youtu.be" in video) or ("youtube.com/" in video):
+                vid.add(video)
+                video_cont += 1
+            elif video_cont == 0:
+                clear()
+                print(status.status_list)
+                print("Nenhum link foi inserido!\n")
             else:
-                if ("youtu.be" in video) or ("youtube.com/" in video):
-                    vid.add(video)
-                    video_cont += 1
-                else:
-                    if video_cont == 0:
-                        clear()
-                        print(status.status_list)
-                        print("Nenhum link foi inserido!\n")
-                    else:
-                        clear()
-                        print(status.status_list)
-                        print("Formato de link invalido, tente novamente!\n")
+                clear()
+                print(status.status_list)
+                print("Formato de link invalido, tente novamente!\n")
         clear()
         status.add("Quantidade de vídeos: " + str(video_cont))
 
@@ -57,7 +55,7 @@ def main():
     while True:
         try:
             print(
-                separador + "Bem-vindo ao ConvertTube, conversor de video"
+                separador + "Bem-vindo ao ConvertTube, conversor de video "
                 "do youtube criado em python."
             )
 
@@ -72,39 +70,34 @@ def main():
             format_type = ""
             while format_type == "":
 
-                format_type = input("Digite o tipo (mp3 ou audio,"
-                                    " mp4 ou video): ")
+                format_type = input("Digite o tipo (mp3 ou audio," + " mp4 ou video): ")
                 clear()
 
-                if format_type == "":
-                    format_type = "MP3"
                 format_type = format_type.upper()
 
                 if format_type in ("MP3", "AUDIO", ""):
+                    format_type = "MP3"
                     vid = Video(user_music, "mp3")
                     status.add("Formato: " + format_type)
                     print(status.status_list)
                     pega_video()
                     print(status.status_list)
+                elif format_type in ("MP4", "VIDEO"):
+                    vid = Video(user_video, "mp4")
+                    status.add("Formato: " + format_type)
+                    print(status.status_list)
+                    pega_video()
+                    print(status.status_list)
                 else:
-                    if format_type in ("MP4", "VIDEO"):
-                        vid = Video(user_video, "mp4")
-                        status.add("Formato: " + format_type)
-                        print(status.status_list)
-                        pega_video()
-                        print(status.status_list)
-                    else:
-                        print(status.status_list)
-                        print("Formato ", format_type,
-                              "incorreto ou indisponível!")
-                        format_type = ""
+                    print(status.status_list)
+                    print("Formato ", format_type, "incorreto ou indisponível!")
+                    format_type = ""
         except Exception as erro:
             print(erro)
             input("Ocorreu um erro:\n" "Pressione enter para continuar")
 
         vid.download_video()
-        clear()
-        print(status.status_list + "\nConversão FINALIZADA!")
+        print("\nConversão FINALIZADA!")
         input("Pressione 'enter' para recomeçar, ou feche o programa.")
         status.clear_list()
         clear()
