@@ -10,7 +10,7 @@ não damos qualquer garantia ou direitos sobre os videos, não é preciso
 fazer atribuição do script, mas aprecio a mesma.
 
 Autor: Gabriel
-Date: 16/09/21
+Date: 18/09/21
 
 """
 
@@ -72,7 +72,8 @@ def main():
             format_type = ""
             while format_type == "":
 
-                format_type = input("Digite o tipo (mp3 ou audio," "mp4 ou video): ")
+                format_type = input("Digite o tipo (mp3 ou audio,"
+                                    " mp4 ou video): ")
                 clear()
 
                 if format_type == "":
@@ -94,7 +95,8 @@ def main():
                         print(status.status_list)
                     else:
                         print(status.status_list)
-                        print("Formato ", format_type, " incorreto ou indisponível!")
+                        print("Formato ", format_type,
+                              "incorreto ou indisponível!")
                         format_type = ""
         except Exception as erro:
             print(erro)
