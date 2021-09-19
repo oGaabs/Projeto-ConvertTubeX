@@ -35,7 +35,7 @@ from moviepy.video.fx.scroll import scroll
 from moviepy.video.fx.supersample import supersample
 from moviepy.video.fx.time_mirror import time_mirror
 from moviepy.video.fx.time_symmetrize import time_symmetrize
-from pytube import YouTube
+from pytube import Playlist, YouTube
 
 
 class Video:
@@ -104,8 +104,17 @@ class Video:
         self._video_cont -= 1
 
     def add(self, video):
-        self._video_list.append(video)
-        self._video_cont += 1
+        if self.is_playlist(video):
+            video = "youtube.com" + video[video.rfind("/"):]
+            playlist = Playlist(video)
+            for url in playlist.video_urls:
+                video = "youtu.be" + url[url.rfind("/"):]
+                self._video_list.append(video)
+                self._video_cont += 1
+        else:
+            video = "youtu.be" + video[video.rfind("/"):]
+            self._video_list.append(video)
+            self._video_cont += 1
 
     def remove(self, video_link):
         self._video_list.remove(video_link)
@@ -127,7 +136,8 @@ class Video:
     def salva_mp3(self, path, yt, separador):
         subtype: str = "mp4"
         stream = (
-            yt.streams.filter(only_audio=True, subtype=subtype).order_by("abr").last()
+            yt.streams.filter(only_audio=True, subtype=subtype
+                              ).order_by("abr").last()
         )
         stream.download(path)
         try:
@@ -152,14 +162,22 @@ class Video:
 
     def convert_mp3(self, path, stream):
         clip = AudioClip(str(stream.download(path)))
-        clip.write_audiofile(str(stream.download(path)).replace(".mp4", ".mp3"))
+        clip.write_audiofile(str(stream.download(path)
+                                 ).replace(".mp4", ".mp3"))
         os.remove(str(stream.download(path)))
+
+    def is_playlist(self, link):
+        if link.find("playlist?list=") != -1 and link.find("watch") == -1:
+            return True
+        return False
 
     def download_video(self):
         path = self._user_dir
         fmt_type = self._format_type
         separador = "-" * 30 + "\n"
-        status = separador + "Pasta: " + path + "\n" "Formato: " + fmt_type.upper()
+        status = (separador + "Pasta: " + path + "\n"
+                  "Formato: " + fmt_type.upper())
+
         for i in self._video_list:
             try:
                 yt = YouTube(i)
