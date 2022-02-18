@@ -4,7 +4,7 @@
 
 ---
 
-A Simple youtube converter made with [Pytube][pytube] and [MoviePy][moviepy].
+A Simple YouTube converter made with [Pytube][pytube] and [MoviePy][moviepy].
 
 The [Pytube][pytube] is a genuine, lightweight, dependency-free Python library (and command-line utility) for downloading YouTube videos.
 
