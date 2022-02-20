@@ -12,7 +12,6 @@ class Stats:
 
     @property
     def status_list(self):
-        """Return the current status with separators."""
         return self.separador_cima + "\n".join(map(str, self._status_list)) + self.separador_baixo
 
     @status_list.setter
