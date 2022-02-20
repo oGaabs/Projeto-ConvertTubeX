@@ -1,17 +1,12 @@
 import os
 from tkinter import Tk
 from tkinter.filedialog import askdirectory
-
-
-def clear():
-    # Limpa o console e volta pra primeira linha sem precisar importar OS
-    print("\033[H\033[J", end="")
+from config import Stats as status, clear
 
 
 def get_directory():
-    separador = "-" * 30 + "\n"
     while True:
-        path_dir = input(separador + "\nEscolha o local de salvamento\n"
+        path_dir = input("Escolha o local de salvamento\n"
                          "1) Digite 1 para escolher um local de salvamento"
                          " personalizado\n"
                          "2) Digite 2 para escolher o local de salvamento"
@@ -21,7 +16,7 @@ def get_directory():
             save_dir = askdirectory()
             if save_dir == "":
                 clear()
-                print(separador + "Caminho não encontrado!")
+                print(status.create_str_status("Caminho não encontrado!"))
             else:
                 user_music = save_dir
                 user_video = save_dir
@@ -35,4 +30,4 @@ def get_directory():
             return user_music, user_video
         else:
             clear()
-            print(separador + "Opção incorreta!")
+            print(status.create_str_status("Opção incorreta!"))

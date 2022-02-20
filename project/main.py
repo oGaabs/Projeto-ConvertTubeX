@@ -15,7 +15,7 @@ Date: 18/09/21
 """
 
 from searchdir import get_directory
-from status import Stats
+from config import Stats, clear
 from video import Video
 
 
@@ -42,22 +42,14 @@ def main():
         clear()
         status.add("Quantidade de vídeos: " + str(video_cont))
 
-    def clear():
-        # Limpa o console e volta pra primeira linha sem precisar importar OS
-        print("\033[H\033[J", end="")
-
     clear()
-    separador = "-" * 30 + "\n"
     user_music = ""
     user_video = ""
     status = Stats()
 
     while True:
         try:
-            print(
-                separador + "Bem-vindo ao ConvertTube, conversor de video "
-                "do youtube criado em python."
-            )
+            print(status.create_str_status("Bem-vindo ao ConvertTube, conversor de videos do youtube criado em python."))
 
             if user_video == "" or user_music == "":
                 user_music, user_video = get_directory()
@@ -90,7 +82,8 @@ def main():
                     print(status.status_list)
                 else:
                     print(status.status_list)
-                    print("Formato ", format_type, "incorreto ou indisponível!")
+                    print("Formato ", format_type,
+                          "incorreto ou indisponível!")
                     format_type = ""
         except Exception as erro:
             print(erro)
