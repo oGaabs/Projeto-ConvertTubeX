@@ -1,72 +1,63 @@
 import os
+from concurrent.futures import ThreadPoolExecutor
+from time import sleep
 
 from moviepy.editor import AudioFileClip as AudioClip
+
+from config import Stats as status
+from config import clear
 from pytube import Playlist, YouTube
 
 
 class Video:
-    """docstring for ClassName."""
-    def __init__(self, user_dir, format_type):
+    def __init__(self, user_dir, save_type):
         self._user_dir = user_dir
-        self._format_type = format_type
+        self._save_type = save_type.upper()
         self._video_list = []
         self._video_cont = 0
 
     @property
     def user_dir(self):
-        """The foo property."""
         return self._user_dir
 
     @user_dir.setter
     def user_dir(self, user_dir):
-        if user_dir is not None and os.path.isdir(user_dir):
-            self._user_dir = user_dir
-        else:
-            print("Caminho não encontrado!")
+        if user_dir is None:
+            return print('Caminho inválido')
+        if not os.path.isdir(user_dir):
+            return print("Caminho não encontrado!")
+
+        self._user_dir = user_dir
 
     @property
-    def format_type(self):
-        """The foo property."""
-        return self._format_type
+    def save_type(self):
+        return self._save_type
 
-    @format_type.setter
-    def format_type(self, format_type):
-        if format_type is not None and format_type.lower() in (
-                "mp3",
-                "audio",
-                "mp3",
-                "video",
-        ):
-            self._format_type = format_type.lower()
-        else:
-            print("Formato não suportado, use (MP3, AUDIO, MP4, VIDEO)!")
+    @save_type.setter
+    def save_type(self, save_type):
+        if save_type is None or save_type.upper() not in ("MP3", "AUDIO", "MP4", "VIDEO"):
+            return print("Formato não suportado, use (MP3, AUDIO, MP4, VIDEO)!")
+
+        self._save_type = save_type.upper()
 
     @property
     def video_cont(self):
-        """The video_cont property."""
         return self._video_cont
 
     @video_cont.setter
     def video_cont(self, video_cont):
-        if video_cont is not None and video_cont >= 0:
-            self._video_cont = video_cont
-        else:
-            print("Insira apenas números naturais!")
+        if video_cont is None or video_cont < 0:
+            return print("Insira apenas números naturais!")
+
+        self._video_cont = video_cont
 
     @property
     def video_list(self):
-        """The video_list property."""
         return self._video_list
 
     @video_list.setter
-    def video_list(self, value):
-        self._video_list = value
-
-    def add_cont(self):
-        self._video_cont += 1
-
-    def sub_cont(self):
-        self._video_cont -= 1
+    def video_list(self, arr):
+        self._video_list = arr
 
     def add(self, video):
         if self.is_playlist(video):
@@ -94,70 +85,81 @@ class Video:
     def clear_list(self):
         self._video_list.clear()
         self._video_cont = 0
-        self._format_type = ""
+        self._save_type = ""
 
-    def clear(self):
-        # Limpa o console e volta pra primeira linha sem precisar importar OS
-        print("\033[H\033[J", end="")
-
-    def salva_mp3(self, path, yt, separador):
-        subtype: str = "mp4"
+    def salva_mp3(self, link):
+        path = self.user_dir
+        yt = YouTube(link)
         stream = (yt.streams.filter(only_audio=True,
-                                    subtype=subtype).order_by("abr").last())
+                                    subtype="mp4").order_by("abr").last())
         stream.download(path)
         try:
             self.convert_mp3(path, stream)
-            self.clear()
         except Exception as ex:
             print(ex)
-            print(
-                separador + "Erro ao converter, verifique ",
-                path,
-                ", o arquivo foi salvo em .mp4, para contornar o erro.\n",
-                separador,
-            )
+            print(status.create_str_status(
+                "Erro ao converter, verifique o caminho ", path,
+                ", o arquivo foi salvo em .mp4, para contornar o erro."
+            ))
+        self.remove(link)
 
-    def salva_mp4(self, path, yt):
+    def salva_mp4(self, link):
+        path = self.user_dir
+        yt = YouTube(link)
         stream = (yt.streams.filter(
             file_extension="mp4",
             progressive=True).order_by("resolution").last())
         stream.download(path)
-        self.clear()
+        self.remove(link)
 
     def convert_mp3(self, path, stream):
         clip = AudioClip(str(stream.download(path)))
         clip.write_audiofile(
-            str(stream.download(path)).replace(".mp4", ".mp3"))
+            str(stream.download(path)).replace(".mp4", ".mp3"), verbose=False, logger=None)
         os.remove(str(stream.download(path)))
 
-    def is_playlist(self, link):
-        if link.find("playlist?list=") != -1 and link.find("watch") == -1:
-            return True
-        return False
-
     def download_video(self):
-        path = self._user_dir
-        fmt_type = self._format_type
-        separador = "-" * 30 + "\n"
-        status = (separador + "Pasta: " + path + "\n"
-                  "Formato: " + fmt_type.upper() + "\n"
-                  "Quantidade de vídeos: " + str(len(self._video_list)))
-
-        for i in self._video_list:
-            try:
-                yt = YouTube(i)
-                title = yt.title
-                self.clear()
-                print(status + "\n" + separador)
-                print("Baixando Vídeo: " + title)
-                print("Link: " + i + "\n")
-                if fmt_type in ("mp3", "audio", ""):
-                    self.salva_mp3(path, yt, separador)
-                elif fmt_type in ("mp4", "video"):
-                    self.salva_mp4(path, yt)
+        path, file_type, videos = self.user_dir, self.save_type, self.video_list
+        videos_length_fixed = self.video_cont
+        save_dir = ("Pasta: " + path + "\n"
+                    "Formato: " + file_type + "\n")
+        clear()
+        print(status.create_str_status(status, save_dir +
+              "Quantidade de vídeos: " + str(videos_length_fixed)), end="\r")
+        try:
+            with ThreadPoolExecutor() as executor:
+                if file_type in ("MP3", "AUDIO", ""):
+                    executor.map(self.salva_mp3, videos)
+                elif file_type in ("MP4", "VIDEO"):
+                    executor.map(self.salva_mp4, videos)
                 else:
                     print("Formato incorreto ou não disponível!")
-            except Exception as erro:
-                print("Erro de conexão", erro)
+                pontos = 1
+                while True:
+                    sleep(1)
+                    clear()
+                    if pontos == 4:
+                        pontos = 1
+                    progresso_baixados = str(
+                        videos_length_fixed - len(videos)) + "\\" + str(videos_length_fixed)
+                    porcentagem = (100 * (videos_length_fixed -
+                                   len(videos)) // videos_length_fixed)
+                    print(status.create_str_status(status, save_dir + "Quantidade de vídeos: " + progresso_baixados) + "\n"
+                          "Baixando" + ("." * pontos) + " \n  | " + ("▰ " * (porcentagem // 5)) + ("▱ " * ((100 - porcentagem) // 5)) + " | " +
+                          str(porcentagem) + "%" + " completo\n\n", end="\r")
+                    pontos += 1
+                    if len(videos) == 0:
+                        break
+        except Exception as e:
+            raise e
         self.clear_list()
-        print(status + "\n" + separador)
+        clear()
+        print(status.create_str_status(status,
+                                       "Pasta: " + path + "\n"
+                                       "Formato: " + file_type + "\n"
+                                       "Quantidade de vídeos: " + str(len(videos))))
+
+    def is_playlist(self, link):
+        if link.find("playlist?list=") == -1 or link.find("watch") != -1:
+            return False
+        return True

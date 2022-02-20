@@ -9,8 +9,8 @@ e está sujeito à lei do seu país, o script é de uso livre, lembrando que
 não damos qualquer garantia ou direitos sobre os videos, não é preciso
 fazer atribuição do script, mas aprecio a mesma.
 
-Autor: Gabriel
-Date: 18/09/21
+Autor: Gabriel Santana
+Date: 20/02/22
 
 """
 
