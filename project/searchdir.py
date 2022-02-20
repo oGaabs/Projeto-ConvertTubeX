@@ -16,7 +16,7 @@ def get_directory():
             save_dir = askdirectory()
             if save_dir == "":
                 clear()
-                print(status.create_str_status("Caminho não encontrado!"))
+                print(status.create_str_status(status, "Caminho não encontrado!"))
             else:
                 user_music = save_dir
                 user_video = save_dir
@@ -30,4 +30,4 @@ def get_directory():
             return user_music, user_video
         else:
             clear()
-            print(status.create_str_status("Opção incorreta!"))
+            print(status.create_str_status(status, "Opção incorreta!"))
