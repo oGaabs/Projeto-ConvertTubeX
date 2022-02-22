@@ -4,6 +4,7 @@ from time import sleep
 
 from moviepy.editor import AudioFileClip as AudioClip
 # Import/Solução temporaria para permitir converter em .exe
+# Devido a um bug entre o pyinstaller/moviepy
 from moviepy.audio.fx.audio_fadein import audio_fadein
 from moviepy.audio.fx.audio_fadeout import audio_fadeout
 from moviepy.audio.fx.audio_loop import audio_loop
