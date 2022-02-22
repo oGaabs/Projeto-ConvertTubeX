@@ -15,6 +15,9 @@ $RECYCLE.BIN/
 # Folder config file
 [Dd]esktop.ini
 
+# Script
+*.bat
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -23,3 +26,5 @@ __pycache__/
 
 # PyInstaller
 output/
+build/
+*.spec
