@@ -129,7 +129,7 @@ class Video:
     def convert_mp3(self, path, stream):
         clip = AudioClip(str(stream.download(path)))
         clip.write_audiofile(
-            str(stream.download(path)).replace(".mp4", ".mp3"), verbose=False, logger=None)
+            str(stream.download(path)).replace(".mp4", ".mp3"), logger=None)
         os.remove(str(stream.download(path)))
 
     def download_video(self):
