@@ -24,7 +24,7 @@ This project requires an installation of Python 3.6 or greater, as well as pip. 
 
 
 ```sh-session
-pip install moviepy
+pip install git+https://github.com/Zulko/moviepy.git@v2.0.0.dev2
 ```
 
 ---
@@ -35,7 +35,11 @@ pip install moviepy
 
 * **Google is currently hard at work on the code that pytube uses for its API, so sometimes Google updates break the API/CODE, even if the developers try to find solutions for it, it's something that can take days to resolve, but can be faster because it is "open source"**
 
-So for Pytube I recommend downloading the version that is in this git branch 'project/pytube', because it's faster than approving the official branch, and sometimes we're out of time, but it can be more dangerous as they're experimental features, so it's up to you risk using the same
+```sh-session
+pip install git+https://github.com/ifahadone/pytube.git
+```
+
+So for Pytube I recommend downloading the version that is in this **[Git branch](https://github.com/ifahadone/pytube)**, because it's faster than approving the official branch, and sometimes we're out of time, but it can be more dangerous as they're experimental features, so it's up to you risk using the same
 
 ---
 
@@ -44,11 +48,16 @@ So for Pytube I recommend downloading the version that is in this git branch 'pr
 
 * **Python 3.6+ or newer is required.**
 
-Which is a .py to .exe converter using a simple graphical interface and PyInstaller in Python.
+For convert .py to .exe using a simple graphical interface and PyInstaller in Python.
 
 ```sh-session
 pip install auto-py-to-exe
 ```
+
+```sh-session
+auto-py-to-exe
+```
+
 
 ---
 
