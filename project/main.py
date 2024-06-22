@@ -13,88 +13,14 @@ Autor: Gabriel Santana
 Date: 20/02/22
 
 """
-
-from searchdir import get_directory
-from config import Stats, clear
-from video import Video
-
+import tkinter as tk
+from gui.window_manager import WindowManager
 
 def main():
-    def pega_video():
-        end_list = False
-        video_cont = 0
-
-        while end_list is False:
-            video = input("#> Digite o link do video ou end para finalizar: ")
-            if (video_cont != 0) and (video in ("", "end")):
-                end_list = True
-            elif ("youtu.be" in video) or ("youtube.com/" in video):
-                vid.add(video)
-                video_cont += 1
-            elif video_cont == 0:
-                clear()
-                print(status.status_list)
-                print("Nenhum link foi inserido!\n")
-            else:
-                clear()
-                print(status.status_list)
-                print("Formato de link invalido, tente novamente!\n")
-        clear()
-        status.add("Quantidade de vídeos: " + str(video_cont))
-
-    clear()
-    user_music = ""
-    user_video = ""
-    status = Stats()
-
-    while True:
-        try:
-            print(status.create_str_status("Bem-vindo ao ConvertTube, conversor de videos do youtube criado em python."))
-
-            if user_video == "" or user_music == "":
-                user_music, user_video = get_directory()
-
-            clear()
-            status.add("Musica: " + user_music + "\n" "Video: " + user_video)
-
-            print(status.status_list)
-
-            format_type = ""
-            while format_type == "":
-
-                format_type = input("Digite o tipo (mp3 ou audio," + " mp4 ou video): ")
-                clear()
-
-                format_type = format_type.upper()
-
-                if format_type in ("MP3", "AUDIO", ""):
-                    format_type = "MP3"
-                    vid = Video(user_music, "mp3")
-                    status.add("Formato: " + format_type)
-                    print(status.status_list)
-                    pega_video()
-                    print(status.status_list)
-                elif format_type in ("MP4", "VIDEO"):
-                    vid = Video(user_video, "mp4")
-                    status.add("Formato: " + format_type)
-                    print(status.status_list)
-                    pega_video()
-                    print(status.status_list)
-                else:
-                    print(status.status_list)
-                    print("Formato ", format_type,
-                          "incorreto ou indisponível!")
-                    format_type = ""
-        except Exception as erro:
-            print(erro)
-            input("Ocorreu um erro:\n" "Pressione enter para continuar")
-
-        vid.download_video()
-        print("\nConversão FINALIZADA!")
-        input("Pressione 'enter' para recomeçar, ou feche o programa.")
-        status.clear_list()
-        clear()
-
+    """Main function to initialize the application."""
+    root = tk.Tk()
+    window_manager = WindowManager(root)
+    root.mainloop() 
 
 if __name__ == "__main__":
     main()
