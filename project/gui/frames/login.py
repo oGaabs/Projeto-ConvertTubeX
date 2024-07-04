@@ -22,13 +22,13 @@ class LoginFrame(tk.Frame):
         self.screen_height = self.controller.root.winfo_screenheight()
 
         # Define window size and position (40% width, 30% height, centered)
-        self.window_width = int(self.screen_width * 0.3)
-        self.window_height = int(self.screen_height * 0.2)
+        self.window_width = 500
+        self.window_height = 170
 
     def center_window(self):
-        self.controller.root.geometry(
-            f"{self.window_width}x{self.window_height}+{int(self.screen_width/2 - self.window_width/2)}+{int(self.screen_height/2 - self.window_height/2)}"
-        )
+        x_offset = int((self.screen_width - self.window_width) / 2)
+        y_offset = int((self.screen_height - self.window_height) / 2)
+        self.controller.root.geometry(f"{self.window_width}x{self.window_height}+{x_offset}+{y_offset}")
 
     def create_login_ui(self):
         # Label for password (centered)

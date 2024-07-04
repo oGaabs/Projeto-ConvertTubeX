@@ -61,11 +61,14 @@ class MainWindowFrame(tk.Frame):
     def set_window_size(self):
         self.screen_width = self.controller.root.winfo_screenwidth()
         self.screen_height = self.controller.root.winfo_screenheight()
-        self.window_width = int(self.screen_width * 0.3)
-        self.window_height = int(self.screen_height * 0.2)
-        self.controller.root.geometry(
-            f"{self.window_width}x{self.window_height}+{int(self.screen_width/2 - self.window_width/2)}+{int(self.screen_height/2 - self.window_height/2)}"
-        )
+        self.window_width = 600
+        self.window_height = 250
+      
+        x_offset = int((self.screen_width - self.window_width) / 2)
+        y_offset = int((self.screen_height - self.window_height) / 2)
+        self.controller.root.geometry(f"{self.window_width}x{self.window_height}+{x_offset}+{y_offset}")
+
+       
 
     def select_download_location(self):
         """Opens a file dialog to select the download location."""
