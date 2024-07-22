@@ -5,6 +5,9 @@ from pytubefix import YouTube, Playlist
 from queue import Queue
 from threading import Thread
 
+import shutil
+import yt_dlp
+
 class YoutubeConverter:
     def __init__(self, download_dir, conversion_type):
         self.download_dir = download_dir
@@ -14,7 +17,7 @@ class YoutubeConverter:
         self.conversion_type = conversion_type
 
         # Setup logging
-        log_filename = datetime.now().strftime("LogConverter_%d-%m-%Y.log")
+        log_filename = datetime.now().strftime("LogConverter_%d-%m-%Y.txt")
         logging.basicConfig(filename=log_filename, level=logging.INFO,
                             format='%(asctime)s - %(levelname)s - %(message)s')
         logging.info("YoutubeConverter initialized with download_dir: %s and conversion_type: %s", download_dir, conversion_type)
@@ -25,7 +28,7 @@ class YoutubeConverter:
 
     def validate_links(self, links):
         for link in links:
-            if not ("youtu.be" in link) and not ("youtube.com/" in link):
+            if not ("youtu.be" in link) and not ("youtube.com/" in link) and not link.startswith("http"):
                 logging.error("Invalid link: %s", link)
                 raise ValueError(f"Invalid link: {link}")
             logging.info("Validated link: %s", link)
@@ -34,7 +37,11 @@ class YoutubeConverter:
         is_playlist = "list=" in link
         logging.info("Checked if link is playlist: %s, result: %s", link, is_playlist)
         return is_playlist       
-   
+
+    def is_ytvideo(self, link):
+        is_video = link.startswith("https://www.youtube.com/watch?v=")
+        logging.info("Checked if link is playlist: %s, result: %s", link, is_video)
+        return is_video   
 
     def convert_playlists_to_link(self, links):
         """Converts playlist URLs to video URLs and removes duplicates.
@@ -51,11 +58,11 @@ class YoutubeConverter:
                 video = "youtube.com" + link[link.rfind("/"):]
                 playlist = Playlist(video)
                 for url in playlist.video_urls:
-                    video = "youtu.be" + url[url.rfind("/"):]
+                    video = "https://youtube.com" + url[url.rfind("/"):]
                     unique_links.add(video)  # Add unique video URLs to the set
                     logging.info("Added video from playlist: %s", video)
-            else:
-                video = "youtu.be" + link[link.rfind("/"):]
+            elif self.is_ytvideo(link):
+                video = "https://youtube.com" + link[link.rfind("/"):]
                 unique_links.add(video)  # Add unique video URLs for non-playlists
                 logging.info("Added video link: %s", video)
 
@@ -69,8 +76,8 @@ class YoutubeConverter:
             self.active_downloads += 1
             logging.info("Added video to queue: %s", url)
 
-        optimal_threads = max(4, os.cpu_count())
-        for _ in range(min(4, optimal_threads)):  # Up to 4 threads
+        optimal_threads = min(self.active_downloads, max(4, os.cpu_count()))  # Up to 4 threads
+        for _ in range(optimal_threads): 
             thread = Thread(target=self._worker, args=(progress_callback,))
             thread.start()
             self.threads.append(thread)
@@ -110,7 +117,29 @@ class YoutubeConverter:
             stream.download(self.download_dir)
             logging.info("Downloaded stream to directory: %s", self.download_dir)
         except Exception as e:
-            logging.error("Error downloading video: %s, error: %s", video_url, str(e))            
+            logging.error("Error downloading video: %s, error: %s", video_url, str(e))
+    
+    def alternative_download_video(self, video_url):
+        try:
+            ydl_opts = {
+                'outtmpl': f'{self.download_dir}/%(title)s.%(ext)s',
+                'merge_output_format': 'mp4'
+            }
+
+            if self.conversion_type == 'MP3':
+                ydl_opts['format'] = 'bestaudio[ext=mp4]/mp4'
+                logging.info("Configured yt_dlp options for MP3 conversion")
+            elif self.conversion_type == 'MP4':
+                ydl_opts['format'] = 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'
+                logging.info("Configured yt_dlp options for MP4 conversion")
+
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                logging.info("Downloading video from URL: %s", video_url)
+                ydl.download([video_url])
+
+            logging.info("Downloaded video to directory: %s", self.download_dir)
+        except Exception as e:
+            logging.error("Error downloading video: %s, error: %s", video_url, str(e))         
 
     def get_downloaded_mp4s(self):
         downloaded_files = []
@@ -119,3 +148,29 @@ class YoutubeConverter:
                 downloaded_files.append(os.path.join(self.download_dir, filename))
                 logging.info("Found downloaded MP4: %s", filename)
         return downloaded_files
+
+if __name__ == "__main__":
+    init_work_dir = os.getcwd()
+    download_dir = os.path.join(init_work_dir, 'downloadedFiles')
+
+    if os.path.exists(download_dir):
+        shutil.rmtree(download_dir)
+    os.mkdir(download_dir)
+
+    convertion_method = ['MP3', 'MP4']
+    downloader = YoutubeConverter(download_dir, convertion_method[0])
+    urls = [
+        "https://www.youtube.com/watch?v=4KCVbn3SIak"
+    ]
+
+    try:
+        downloader.validate_links(urls)
+        downloader.download_videos(urls)
+        downloaded_files = downloader.get_downloaded_mp4s()
+        logging.info("Downloaded files:", downloaded_files)
+        input("Press any key to END")
+    except Exception as e:
+        logging.error("Error:", str(e))
+    finally:
+        os.chdir(init_work_dir)
+        shutil.rmtree(download_dir)
