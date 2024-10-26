@@ -1,19 +1,14 @@
 import os
 import logging
-from datetime import datetime
-from pytubefix import YouTube, Playlist
-from queue import Queue
-from threading import Thread
-
 import shutil
-import yt_dlp
+from datetime import datetime
+from yt_dlp import YoutubeDL
+from pytubefix import YouTube, Playlist
+from concurrent.futures import ProcessPoolExecutor
 
 class YoutubeConverter:
     def __init__(self, download_dir, conversion_type):
         self.download_dir = download_dir
-        self.queue = Queue()
-        self.threads = []
-        self.active_downloads = 0
         self.conversion_type = conversion_type
 
         # Setup logging
@@ -32,6 +27,7 @@ class YoutubeConverter:
                 logging.error("Invalid link: %s", link)
                 raise ValueError(f"Invalid link: {link}")
             logging.info("Validated link: %s", link)
+
             
     def is_playlist(self, link):
         is_playlist = "list=" in link
@@ -41,7 +37,7 @@ class YoutubeConverter:
     def is_ytvideo(self, link):
         is_video = link.startswith("https://www.youtube.com/watch?v=")
         logging.info("Checked if link is playlist: %s, result: %s", link, is_video)
-        return is_video   
+        return is_video 
 
     def convert_playlists_to_link(self, links):
         """Converts playlist URLs to video URLs and removes duplicates.
@@ -70,76 +66,53 @@ class YoutubeConverter:
         logging.info("Converted playlists to unique video links: %s", unique_video_links)
         return unique_video_links  # Convert the set back to a list
 
-    def download_videos(self, video_urls, progress_callback=None):
-        for url in video_urls:
-            self.queue.put(url)
-            self.active_downloads += 1
-            logging.info("Added video to queue: %s", url)
-
-        optimal_threads = min(self.active_downloads, max(4, os.cpu_count()))  # Up to 4 threads
-        for _ in range(optimal_threads): 
-            thread = Thread(target=self._worker, args=(progress_callback,))
-            thread.start()
-            self.threads.append(thread)
-            logging.info("Started download thread")
-
-        for thread in self.threads:
-            thread.join()
-            logging.info("Joined download thread")           
-
-    def _worker(self, progress_callback):
-        while not self.queue.empty():
-            url = self.queue.get()
-            try:
-                self.download_video(url)
-                logging.info("Downloaded video: %s", url)
-                if progress_callback:
-                    progress_callback(1)
-            except Exception as e:
-                logging.error("Error downloading video: %s, error: %s", url, str(e))
-            finally:
-                self.queue.task_done()
-                self.active_downloads -= 1
-                logging.info("Task done for video: %s", url)
-
-    def download_video(self, video_url):
+    def download_task(self, videos, output_dir):
+        if not os.path.isdir(output_dir):
+            os.makedirs(output_dir)
+            
         try:
-            yt = YouTube(video_url)
-            logging.info("Initiated YouTube object for URL: %s", video_url)
-
+            yt = YouTube(videos)
+            logging.info("Initiated YouTube object for URL: %s", videos)
             if self.conversion_type == 'MP3':
                 stream = yt.streams.filter(only_audio=True, subtype="mp4").order_by("abr").last()
-                logging.info("Filtered stream for MP3 conversion")
-            elif self.conversion_type == 'MP4':
+            else:  # Assume MP4
                 stream = yt.streams.filter(progressive=True, file_extension="mp4").order_by("resolution").last()
-                logging.info("Filtered stream for MP4 conversion")
-
             stream.download(self.download_dir)
-            logging.info("Downloaded stream to directory: %s", self.download_dir)
+            logging.info("Downloaded video via pytubefix: %s", videos)
         except Exception as e:
-            logging.error("Error downloading video: %s, error: %s", video_url, str(e))
-    
-    def alternative_download_video(self, video_url):
-        try:
+            logging.error("Error with pytubefix, falling back to yt_dlp for URL: %s", videos)
             ydl_opts = {
-                'outtmpl': f'{self.download_dir}/%(title)s.%(ext)s',
+                'outtmpl': os.path.join(self.download_dir, '%(title)s.%(ext)s'),
                 'merge_output_format': 'mp4'
             }
-
             if self.conversion_type == 'MP3':
                 ydl_opts['format'] = 'bestaudio[ext=mp4]/mp4'
                 logging.info("Configured yt_dlp options for MP3 conversion")
-            elif self.conversion_type == 'MP4':
+            else:
                 ydl_opts['format'] = 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'
                 logging.info("Configured yt_dlp options for MP4 conversion")
 
-            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                logging.info("Downloading video from URL: %s", video_url)
-                ydl.download([video_url])
+            try:
+                with YoutubeDL(ydl_opts) as ydl:
+                    ydl.download([videos])
+                logging.info("Downloaded video via yt_dlp: %s", videos)
+            except Exception as e:
+                logging.error("Error downloading with yt_dlp for URL: %s, error: %s", videos, str(e))
 
-            logging.info("Downloaded video to directory: %s", self.download_dir)
-        except Exception as e:
-            logging.error("Error downloading video: %s, error: %s", video_url, str(e))         
+
+    def download_videos(self, video_urls, progress_callback=None):
+        with ProcessPoolExecutor() as executor:
+            futures = []
+
+            for video_url in video_urls:
+                playlist_output_dir = f"{self.download_dir}"
+                futures.append(executor.submit(self.download_task, video_url, playlist_output_dir))
+            
+            # Wait for all the downloads to complete
+            for future in futures:
+                future.result()
+                if progress_callback:
+                    progress_callback(1)
 
     def get_downloaded_mp4s(self):
         downloaded_files = []
@@ -148,29 +121,24 @@ class YoutubeConverter:
                 downloaded_files.append(os.path.join(self.download_dir, filename))
                 logging.info("Found downloaded MP4: %s", filename)
         return downloaded_files
-
-if __name__ == "__main__":
-    init_work_dir = os.getcwd()
-    download_dir = os.path.join(init_work_dir, 'downloadedFiles')
-
+def main():
+    download_dir = os.path.join(os.getcwd(), 'downloadedFiles')
     if os.path.exists(download_dir):
         shutil.rmtree(download_dir)
-    os.mkdir(download_dir)
 
-    convertion_method = ['MP3', 'MP4']
-    downloader = YoutubeConverter(download_dir, convertion_method[0])
+    converter = YoutubeConverter(download_dir, 'MP3')
     urls = [
-        "https://www.youtube.com/watch?v=4KCVbn3SIak"
+        "https://www.youtube.com/watch?v=4KCVbn3SIak",
     ]
 
     try:
-        downloader.validate_links(urls)
-        downloader.download_videos(urls)
-        downloaded_files = downloader.get_downloaded_mp4s()
-        logging.info("Downloaded files:", downloaded_files)
-        input("Press any key to END")
+        converter.validate_links(urls)
+        unique_video_urls = converter.convert_playlists_to_link(urls)
+        converter.download_videos(unique_video_urls)
+        downloaded_files = converter.get_downloaded_mp4s()
+        logging.info("Downloaded files: %s", downloaded_files)
     except Exception as e:
-        logging.error("Error:", str(e))
-    finally:
-        os.chdir(init_work_dir)
-        shutil.rmtree(download_dir)
+        logging.error("Error: %s", str(e))
+
+if __name__ == "__main__":
+    main()
