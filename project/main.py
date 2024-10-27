@@ -13,14 +13,16 @@ Autor: Gabriel Santana
 Date: 20/02/22
 
 """
-import tkinter as tk
+import sys
+from PySide6.QtWidgets import QApplication
 from gui.window_manager import WindowManager
 
 def main():
     """Main function to initialize the application."""
-    root = tk.Tk()
-    window_manager = WindowManager(root)
-    root.mainloop() 
+    app = QApplication(sys.argv)
+    window_manager = WindowManager()
+    window_manager.show()
+    sys.exit(app.exec())
 
 if __name__ == "__main__":
     main()

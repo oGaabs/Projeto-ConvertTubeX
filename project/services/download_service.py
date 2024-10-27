@@ -1,5 +1,6 @@
 import os
 import logging
+import re
 import shutil
 from datetime import datetime
 from yt_dlp import YoutubeDL
@@ -81,16 +82,17 @@ class YoutubeConverter:
             logging.info("Downloaded video via pytubefix: %s", videos)
         except Exception as e:
             logging.error("Error with pytubefix, falling back to yt_dlp for URL: %s", videos)
+
             ydl_opts = {
-                'outtmpl': os.path.join(self.download_dir, '%(title)s.%(ext)s'),
-                'merge_output_format': 'mp4'
+                'outtmpl':  os.path.join(self.download_dir, '%(title)s.%(ext)s'),
+                'merge_output_format': 'mp4',
+                'format': 'bestaudio[ext=mp4]/mp4' if self.conversion_type == 'MP3' else 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4',
+                'concurrent_fragment_downloads': True,  # Enable multi-threaded fragment downloads
+                'concurrent_fragments': 4,  # Number of threads used for fragment downloads
+                'restrictfilenames': True,  # Restrict filenames to only ASCII characters, and avoid "&" and spaces
+                'retries': 1,
             }
-            if self.conversion_type == 'MP3':
-                ydl_opts['format'] = 'bestaudio[ext=mp4]/mp4'
-                logging.info("Configured yt_dlp options for MP3 conversion")
-            else:
-                ydl_opts['format'] = 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'
-                logging.info("Configured yt_dlp options for MP4 conversion")
+            logging.info("Configured yt_dlp options for %s conversion", self.conversion_type)
 
             try:
                 with YoutubeDL(ydl_opts) as ydl:
