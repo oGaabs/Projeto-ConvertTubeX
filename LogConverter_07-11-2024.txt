@@ -1,0 +1,922 @@
+2024-11-07 16:54:46,230 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 16:54:46,230 - INFO - Validated link: https://www.youtube.com/watch?v=K7MOOwwoq60&list=PLHdrXweOaiXJwHAxicdKbV5yP2OXJZTrW
+2024-11-07 16:54:46,230 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=K7MOOwwoq60&list=PLHdrXweOaiXJwHAxicdKbV5yP2OXJZTrW, result: True
+2024-11-07 16:54:46,709 - INFO - Added video from playlist: https://youtube.com/watch?v=K7MOOwwoq60
+2024-11-07 16:54:46,709 - INFO - Added video from playlist: https://youtube.com/watch?v=JLER_EhWnqE
+2024-11-07 16:54:46,709 - INFO - Added video from playlist: https://youtube.com/watch?v=DIqngAXHzTI
+2024-11-07 16:54:46,709 - INFO - Added video from playlist: https://youtube.com/watch?v=BI5_hpUxDrM
+2024-11-07 16:54:46,709 - INFO - Added video from playlist: https://youtube.com/watch?v=3JmL6Z6AiRA
+2024-11-07 16:54:46,709 - INFO - Added video from playlist: https://youtube.com/watch?v=fcYJA8qvW7k
+2024-11-07 16:54:46,709 - INFO - Added video from playlist: https://youtube.com/watch?v=ZHSGTe1FUAg
+2024-11-07 16:54:46,709 - INFO - Added video from playlist: https://youtube.com/watch?v=x58EWY5kGQo
+2024-11-07 16:54:46,709 - INFO - Added video from playlist: https://youtube.com/watch?v=0JtISvgf2Aw
+2024-11-07 16:54:46,709 - INFO - Added video from playlist: https://youtube.com/watch?v=RRKXQE52l2Q
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=emT4XhB73UA
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=BK9p2RWujtw
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=PW2o0iVqikg
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=hYJWVIHc0xc
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=lPCxm9kwO98
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=t8BhjRIEVeQ
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=L69X-e3ftN8
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=WBtVjjLtEY8
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=IzxAs9KbAmk
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=jxXlNP2-KVs
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=JUJS0UMl0c8
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=uhJv3BYH0zo
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=cWGE9Gi0bB0
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=jO2_3pVd5k0
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=NeNoqyh8r8Q
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=5-W7iXPfdvc
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=pBk0VFLz9_s
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=YmHMcZXf_WA
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=IfLnhK80STE
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=qcjYSJDGVu0
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=JB6ovp0qeMA
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=sxxQIZVTlPU
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=Bgoe2kYFyiQ
+2024-11-07 16:54:46,710 - INFO - Added video from playlist: https://youtube.com/watch?v=THYfazxxK_0
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=Cp4FR2igXuw
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=O7LtqEEQv34
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=PY2FQ-LgmYo
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=OrUqC6zZk94
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=PHBJpCjq50E
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=VI4ssGtfdxw
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=rNQ-YBR3VtM
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=Rn0xXo1gwGY
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=0IMRxMKbZjU
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=w500hUEEAsw
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=fZB-ptAnoQc
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=DvC3MdUzjmM
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=udm94_ls9vo
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=-5aaJJQFvOg
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=CHXD9k19q1Y
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=H6s9HUxm2NI
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=1kL1VHNwUnc
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=OaJLcwvj-S8
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=IlkBLwl4aBM
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=oKJWhDWditU
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=hcjP5PbW9Gw
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=JcVDXHeD59c
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=6uGQ_ypTw08
+2024-11-07 16:54:46,711 - INFO - Added video from playlist: https://youtube.com/watch?v=M-MdP-9xACc
+2024-11-07 16:54:46,712 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=x58EWY5kGQo', 'https://youtube.com/watch?v=O7LtqEEQv34', 'https://youtube.com/watch?v=BI5_hpUxDrM', 'https://youtube.com/watch?v=0JtISvgf2Aw', 'https://youtube.com/watch?v=NeNoqyh8r8Q', 'https://youtube.com/watch?v=YmHMcZXf_WA', 'https://youtube.com/watch?v=IzxAs9KbAmk', 'https://youtube.com/watch?v=CHXD9k19q1Y', 'https://youtube.com/watch?v=lPCxm9kwO98', 'https://youtube.com/watch?v=-5aaJJQFvOg', 'https://youtube.com/watch?v=hcjP5PbW9Gw', 'https://youtube.com/watch?v=rNQ-YBR3VtM', 'https://youtube.com/watch?v=L69X-e3ftN8', 'https://youtube.com/watch?v=sxxQIZVTlPU', 'https://youtube.com/watch?v=OrUqC6zZk94', 'https://youtube.com/watch?v=ZHSGTe1FUAg', 'https://youtube.com/watch?v=DIqngAXHzTI', 'https://youtube.com/watch?v=JcVDXHeD59c', 'https://youtube.com/watch?v=uhJv3BYH0zo', 'https://youtube.com/watch?v=emT4XhB73UA', 'https://youtube.com/watch?v=qcjYSJDGVu0', 'https://youtube.com/watch?v=hYJWVIHc0xc', 'https://youtube.com/watch?v=Rn0xXo1gwGY', 'https://youtube.com/watch?v=0IMRxMKbZjU', 'https://youtube.com/watch?v=fcYJA8qvW7k', 'https://youtube.com/watch?v=WBtVjjLtEY8', 'https://youtube.com/watch?v=THYfazxxK_0', 'https://youtube.com/watch?v=3JmL6Z6AiRA', 'https://youtube.com/watch?v=cWGE9Gi0bB0', 'https://youtube.com/watch?v=K7MOOwwoq60', 'https://youtube.com/watch?v=H6s9HUxm2NI', 'https://youtube.com/watch?v=jxXlNP2-KVs', 'https://youtube.com/watch?v=VI4ssGtfdxw', 'https://youtube.com/watch?v=OaJLcwvj-S8', 'https://youtube.com/watch?v=DvC3MdUzjmM', 'https://youtube.com/watch?v=5-W7iXPfdvc', 'https://youtube.com/watch?v=Cp4FR2igXuw', 'https://youtube.com/watch?v=M-MdP-9xACc', 'https://youtube.com/watch?v=6uGQ_ypTw08', 'https://youtube.com/watch?v=w500hUEEAsw', 'https://youtube.com/watch?v=1kL1VHNwUnc', 'https://youtube.com/watch?v=BK9p2RWujtw', 'https://youtube.com/watch?v=Bgoe2kYFyiQ', 'https://youtube.com/watch?v=IfLnhK80STE', 'https://youtube.com/watch?v=JB6ovp0qeMA', 'https://youtube.com/watch?v=fZB-ptAnoQc', 'https://youtube.com/watch?v=t8BhjRIEVeQ', 'https://youtube.com/watch?v=JUJS0UMl0c8', 'https://youtube.com/watch?v=PW2o0iVqikg', 'https://youtube.com/watch?v=PY2FQ-LgmYo', 'https://youtube.com/watch?v=JLER_EhWnqE', 'https://youtube.com/watch?v=IlkBLwl4aBM', 'https://youtube.com/watch?v=udm94_ls9vo', 'https://youtube.com/watch?v=PHBJpCjq50E', 'https://youtube.com/watch?v=oKJWhDWditU', 'https://youtube.com/watch?v=RRKXQE52l2Q', 'https://youtube.com/watch?v=jO2_3pVd5k0', 'https://youtube.com/watch?v=pBk0VFLz9_s']
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: 13_times_Harry_Styles_vocals_had_me_SHOOK..mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: AMAZING_Singers_caught_on_camera_-_Compilation_Silent_people.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Anna_by_Harry_Styles_w_Lyrics_HD.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Ansel_Elgort_Baby_Driver_Singing_Cover_Songs_Compilation_REAL_VOICE.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Arctic_Monkeys_-_Love_Is_A_Laserquest_Live_on_KEXP.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Arctic_Monkeys_-_Piledriver_Waltz.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Arctic_Monkeys_-_Reckless_Serenade_Live_on_KEXP.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Arctic_Monkeys_-_Tranquility_Base_Hotel_Casino.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Ayatollah_lyrics_-_Catfish_and_the_Bottlemen.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: a_berry_peachy_tutorial.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: a_love_song_a_non_love_song_Jon_Cozart_and_dodie.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Blossoms_-_Charlemagne.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Catfish_and_The_Bottlemen_-_Anything_Live_At_T_In_The_Park_2016.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Catfish_and_the_Bottlemen_-_Black_Skinhead_Kanye_West_cover_in_the_Live_Lounge.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Catfish_And_The_Bottlemen_Live_At_T_In_The_Park_2016_-_Full_Set.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: dodie_-_In_The_Middle.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Dua_Lipa_covers_Arctic_Monkeys_Do_I_Wanna_Know_in_the_Live_Lounge.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: El_Tango_De_Roxanne-_Moulin_Rouge.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Feeling_Whitney_-_Post_Malone_Justice_Carradine_Cover.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Frank_Sinatra_-_New_York_New_York_Tony_Ferrari_Cover.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Hands_Cover_by_New_Hope_Club_ft._Sabrina_Carpenter.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Hand_In_Hand_Cover_-_Annenmaykantereit.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Harry_Styles_-_Wild_Thoughts_Live_Cover.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Harry_Styles_and_his_Improvement_on_the_high_note_in_SOTT.mp4
+2024-11-07 16:56:47,249 - INFO - Found downloaded MP4: Havana_-_swing_cover_dodie_feat._FLASHBACK.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Idle_Town_-_Conan_Gray_Original_Song.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: If_You_Want_Me_Too_An_Original_Song_Justice_Carradine_X_M_Ms.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: I_Know_A_Place_-_Original_Song.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: I_m_in_love_with_someone_but_I_m_not_sure_she_can_love_someone_back_the_way_they_love_her.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: i_will_be_okay_original_song.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: i_wrote_another_song_tate_mcrae.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: i_wrote_a_song..._one_day_tate_mcrae.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: i_wrote_my_first_song_and_this_is_it.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: la_vie_en_rose_cover.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: La_Vie_En_Rose_ukulele_cover_Renee_Dominique.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Lovesick_Boys_-_Original_Song.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Medicine_by_Harry_Styles_w_Lyrics_HD.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: MEDICINE_HARRY_STYLES_LYRIC_VIDEO_UPDATED_AND_CORRECT.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Minecraft_Xbox_-_Fred_Goes_to_Prison_200.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Moulin_Rouge_El_Tango_de_Roxanne_Lyrics.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Panic_At_The_Disco_-_This_Is_Gospel_Piano_Version.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: party_tattoos_-_original_song_dodie.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: peachy_-_falling_for_u_feat._mxmtoon.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Pianist_and_singer_Isaac_melts_the_Judges_hearts_Britain_s_Got_Talent_2015.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Pink_Floyd_-_Shine_On_You_Crazy_Diamond_Official_Music_Video.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Roxanne_Cover_-_AnnenMayKantereit_Milky_Chance.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Royal_Blood_-_Little_Monster_-_Later..._with_Jools_Holland_-_BBC_Two.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Ryan_Fire_Fighters_Cartoon_for_kids_Fire_Truck_Emergency_Vehicles_Animation_for_Children.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: SCOTTY_SIRE_-_SAD_SONG_Official_Lyric_Video.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: SHAWN_MENDES_HIGH_NOTES_FALSETTOS.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Shawn_Mendes_In_My_Blood_Audio.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Somebody_Else_-_The_1975_Justice_Carradine_Cover.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: TARON_EGERTON_SINGING_REAL_VOICE.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: The_Weeknd_-_Privilege_Official_Audio.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Tokio_Myers_euphoric_tune_makes_time_stand_still_Grand_Final_Britain_s_Got_Talent_2017.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: Tokio_Myers_takes_his_musical_mash-up_to_new_heights_Semi-Final_3_Britain_s_Got_Talent_2017.mp4
+2024-11-07 16:56:47,250 - INFO - Found downloaded MP4: WILD_-_TROYE_SIVAN_COVER.mp4
+2024-11-07 16:56:47,251 - INFO - Found downloaded MP4: Yellow_Days_-_A_Little_While.mp4
+2024-11-07 17:13:03,304 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 17:13:03,305 - INFO - Validated link: https://www.youtube.com/watch?v=K7MOOwwoq60&list=PLHdrXweOaiXJwHAxicdKbV5yP2OXJZTrW
+2024-11-07 17:13:03,305 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=K7MOOwwoq60&list=PLHdrXweOaiXJwHAxicdKbV5yP2OXJZTrW, result: True
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=K7MOOwwoq60
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=JLER_EhWnqE
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=DIqngAXHzTI
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=BI5_hpUxDrM
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=3JmL6Z6AiRA
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=fcYJA8qvW7k
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=ZHSGTe1FUAg
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=x58EWY5kGQo
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=0JtISvgf2Aw
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=RRKXQE52l2Q
+2024-11-07 17:13:03,704 - INFO - Added video from playlist: https://youtube.com/watch?v=emT4XhB73UA
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=BK9p2RWujtw
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=PW2o0iVqikg
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=hYJWVIHc0xc
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=lPCxm9kwO98
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=t8BhjRIEVeQ
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=L69X-e3ftN8
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=WBtVjjLtEY8
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=IzxAs9KbAmk
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=jxXlNP2-KVs
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=JUJS0UMl0c8
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=uhJv3BYH0zo
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=cWGE9Gi0bB0
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=jO2_3pVd5k0
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=NeNoqyh8r8Q
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=5-W7iXPfdvc
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=pBk0VFLz9_s
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=YmHMcZXf_WA
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=IfLnhK80STE
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=qcjYSJDGVu0
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=JB6ovp0qeMA
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=sxxQIZVTlPU
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=Bgoe2kYFyiQ
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=THYfazxxK_0
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=Cp4FR2igXuw
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=O7LtqEEQv34
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=PY2FQ-LgmYo
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=OrUqC6zZk94
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=PHBJpCjq50E
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=VI4ssGtfdxw
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=rNQ-YBR3VtM
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=Rn0xXo1gwGY
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=0IMRxMKbZjU
+2024-11-07 17:13:03,705 - INFO - Added video from playlist: https://youtube.com/watch?v=w500hUEEAsw
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=fZB-ptAnoQc
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=DvC3MdUzjmM
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=udm94_ls9vo
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=-5aaJJQFvOg
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=CHXD9k19q1Y
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=H6s9HUxm2NI
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=1kL1VHNwUnc
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=OaJLcwvj-S8
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=IlkBLwl4aBM
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=oKJWhDWditU
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=hcjP5PbW9Gw
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=JcVDXHeD59c
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=6uGQ_ypTw08
+2024-11-07 17:13:03,706 - INFO - Added video from playlist: https://youtube.com/watch?v=M-MdP-9xACc
+2024-11-07 17:13:03,706 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=lPCxm9kwO98', 'https://youtube.com/watch?v=pBk0VFLz9_s', 'https://youtube.com/watch?v=DIqngAXHzTI', 'https://youtube.com/watch?v=rNQ-YBR3VtM', 'https://youtube.com/watch?v=Cp4FR2igXuw', 'https://youtube.com/watch?v=w500hUEEAsw', 'https://youtube.com/watch?v=YmHMcZXf_WA', 'https://youtube.com/watch?v=K7MOOwwoq60', 'https://youtube.com/watch?v=IzxAs9KbAmk', 'https://youtube.com/watch?v=DvC3MdUzjmM', 'https://youtube.com/watch?v=PHBJpCjq50E', 'https://youtube.com/watch?v=ZHSGTe1FUAg', 'https://youtube.com/watch?v=OaJLcwvj-S8', 'https://youtube.com/watch?v=hcjP5PbW9Gw', 'https://youtube.com/watch?v=udm94_ls9vo', 'https://youtube.com/watch?v=WBtVjjLtEY8', 'https://youtube.com/watch?v=6uGQ_ypTw08', 'https://youtube.com/watch?v=hYJWVIHc0xc', 'https://youtube.com/watch?v=O7LtqEEQv34', 'https://youtube.com/watch?v=0JtISvgf2Aw', 'https://youtube.com/watch?v=JcVDXHeD59c', 'https://youtube.com/watch?v=1kL1VHNwUnc', 'https://youtube.com/watch?v=NeNoqyh8r8Q', 'https://youtube.com/watch?v=Rn0xXo1gwGY', 'https://youtube.com/watch?v=H6s9HUxm2NI', 'https://youtube.com/watch?v=sxxQIZVTlPU', 'https://youtube.com/watch?v=t8BhjRIEVeQ', 'https://youtube.com/watch?v=uhJv3BYH0zo', 'https://youtube.com/watch?v=CHXD9k19q1Y', 'https://youtube.com/watch?v=fZB-ptAnoQc', 'https://youtube.com/watch?v=0IMRxMKbZjU', 'https://youtube.com/watch?v=PW2o0iVqikg', 'https://youtube.com/watch?v=BK9p2RWujtw', 'https://youtube.com/watch?v=PY2FQ-LgmYo', 'https://youtube.com/watch?v=M-MdP-9xACc', 'https://youtube.com/watch?v=jxXlNP2-KVs', 'https://youtube.com/watch?v=3JmL6Z6AiRA', 'https://youtube.com/watch?v=Bgoe2kYFyiQ', 'https://youtube.com/watch?v=fcYJA8qvW7k', 'https://youtube.com/watch?v=BI5_hpUxDrM', 'https://youtube.com/watch?v=qcjYSJDGVu0', 'https://youtube.com/watch?v=OrUqC6zZk94', 'https://youtube.com/watch?v=-5aaJJQFvOg', 'https://youtube.com/watch?v=JLER_EhWnqE', 'https://youtube.com/watch?v=JUJS0UMl0c8', 'https://youtube.com/watch?v=cWGE9Gi0bB0', 'https://youtube.com/watch?v=jO2_3pVd5k0', 'https://youtube.com/watch?v=VI4ssGtfdxw', 'https://youtube.com/watch?v=IlkBLwl4aBM', 'https://youtube.com/watch?v=RRKXQE52l2Q', 'https://youtube.com/watch?v=x58EWY5kGQo', 'https://youtube.com/watch?v=L69X-e3ftN8', 'https://youtube.com/watch?v=IfLnhK80STE', 'https://youtube.com/watch?v=JB6ovp0qeMA', 'https://youtube.com/watch?v=THYfazxxK_0', 'https://youtube.com/watch?v=oKJWhDWditU', 'https://youtube.com/watch?v=emT4XhB73UA', 'https://youtube.com/watch?v=5-W7iXPfdvc']
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: 13_times_Harry_Styles_vocals_had_me_SHOOK..mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: AMAZING_Singers_caught_on_camera_-_Compilation_Silent_people.mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: Anna_by_Harry_Styles_w_Lyrics_HD.mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: Ansel_Elgort_Baby_Driver_Singing_Cover_Songs_Compilation_REAL_VOICE.mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: Arctic_Monkeys_-_Love_Is_A_Laserquest_Live_on_KEXP.mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: Arctic_Monkeys_-_Piledriver_Waltz.mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: Arctic_Monkeys_-_Reckless_Serenade_Live_on_KEXP.mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: Arctic_Monkeys_-_Tranquility_Base_Hotel_Casino.mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: Ayatollah_lyrics_-_Catfish_and_the_Bottlemen.mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: a_berry_peachy_tutorial.mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: a_love_song_a_non_love_song_Jon_Cozart_and_dodie.mp4
+2024-11-07 17:13:48,542 - INFO - Found downloaded MP4: Blossoms_-_Charlemagne.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Catfish_and_The_Bottlemen_-_Anything_Live_At_T_In_The_Park_2016.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Catfish_and_the_Bottlemen_-_Black_Skinhead_Kanye_West_cover_in_the_Live_Lounge.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Catfish_And_The_Bottlemen_Live_At_T_In_The_Park_2016_-_Full_Set.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: dodie_-_In_The_Middle.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Dua_Lipa_covers_Arctic_Monkeys_Do_I_Wanna_Know_in_the_Live_Lounge.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: El_Tango_De_Roxanne-_Moulin_Rouge.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Feeling_Whitney_-_Post_Malone_Justice_Carradine_Cover.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Frank_Sinatra_-_New_York_New_York_Tony_Ferrari_Cover.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Hands_Cover_by_New_Hope_Club_ft._Sabrina_Carpenter.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Hand_In_Hand_Cover_-_Annenmaykantereit.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Harry_Styles_-_Wild_Thoughts_Live_Cover.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Harry_Styles_and_his_Improvement_on_the_high_note_in_SOTT.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Havana_-_swing_cover_dodie_feat._FLASHBACK.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Idle_Town_-_Conan_Gray_Original_Song.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: If_You_Want_Me_Too_An_Original_Song_Justice_Carradine_X_M_Ms.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: I_Know_A_Place_-_Original_Song.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: I_m_in_love_with_someone_but_I_m_not_sure_she_can_love_someone_back_the_way_they_love_her.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: i_will_be_okay_original_song.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: i_wrote_another_song_tate_mcrae.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: i_wrote_a_song..._one_day_tate_mcrae.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: i_wrote_my_first_song_and_this_is_it.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: la_vie_en_rose_cover.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: La_Vie_En_Rose_ukulele_cover_Renee_Dominique.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Lovesick_Boys_-_Original_Song.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Medicine_by_Harry_Styles_w_Lyrics_HD.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: MEDICINE_HARRY_STYLES_LYRIC_VIDEO_UPDATED_AND_CORRECT.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Minecraft_Xbox_-_Fred_Goes_to_Prison_200.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Moulin_Rouge_El_Tango_de_Roxanne_Lyrics.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: Panic_At_The_Disco_-_This_Is_Gospel_Piano_Version.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: party_tattoos_-_original_song_dodie.mp4
+2024-11-07 17:13:48,543 - INFO - Found downloaded MP4: peachy_-_falling_for_u_feat._mxmtoon.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: Pianist_and_singer_Isaac_melts_the_Judges_hearts_Britain_s_Got_Talent_2015.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: Pink_Floyd_-_Shine_On_You_Crazy_Diamond_Official_Music_Video.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: Roxanne_Cover_-_AnnenMayKantereit_Milky_Chance.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: Royal_Blood_-_Little_Monster_-_Later..._with_Jools_Holland_-_BBC_Two.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: Ryan_Fire_Fighters_Cartoon_for_kids_Fire_Truck_Emergency_Vehicles_Animation_for_Children.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: SCOTTY_SIRE_-_SAD_SONG_Official_Lyric_Video.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: SHAWN_MENDES_HIGH_NOTES_FALSETTOS.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: Shawn_Mendes_In_My_Blood_Audio.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: Somebody_Else_-_The_1975_Justice_Carradine_Cover.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: TARON_EGERTON_SINGING_REAL_VOICE.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: The_Weeknd_-_Privilege_Official_Audio.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: Tokio_Myers_euphoric_tune_makes_time_stand_still_Grand_Final_Britain_s_Got_Talent_2017.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: Tokio_Myers_takes_his_musical_mash-up_to_new_heights_Semi-Final_3_Britain_s_Got_Talent_2017.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: WILD_-_TROYE_SIVAN_COVER.mp4
+2024-11-07 17:13:48,544 - INFO - Found downloaded MP4: Yellow_Days_-_A_Little_While.mp4
+2024-11-07 17:17:21,718 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music and conversion_type: MP3
+2024-11-07 17:17:21,718 - INFO - Validated link: https://www.youtube.com/watch?v=DIqngAXHzTI&list=PLHdrXweOaiXJwHAxicdKbV5yP2OXJZTrW&
+2024-11-07 17:17:21,718 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=DIqngAXHzTI&list=PLHdrXweOaiXJwHAxicdKbV5yP2OXJZTrW&, result: True
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=K7MOOwwoq60
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=JLER_EhWnqE
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=DIqngAXHzTI
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=BI5_hpUxDrM
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=3JmL6Z6AiRA
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=fcYJA8qvW7k
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=ZHSGTe1FUAg
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=x58EWY5kGQo
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=0JtISvgf2Aw
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=RRKXQE52l2Q
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=emT4XhB73UA
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=BK9p2RWujtw
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=PW2o0iVqikg
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=hYJWVIHc0xc
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=lPCxm9kwO98
+2024-11-07 17:17:22,201 - INFO - Added video from playlist: https://youtube.com/watch?v=t8BhjRIEVeQ
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=L69X-e3ftN8
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=WBtVjjLtEY8
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=IzxAs9KbAmk
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=jxXlNP2-KVs
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=JUJS0UMl0c8
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=uhJv3BYH0zo
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=cWGE9Gi0bB0
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=jO2_3pVd5k0
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=NeNoqyh8r8Q
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=5-W7iXPfdvc
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=pBk0VFLz9_s
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=YmHMcZXf_WA
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=IfLnhK80STE
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=qcjYSJDGVu0
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=JB6ovp0qeMA
+2024-11-07 17:17:22,202 - INFO - Added video from playlist: https://youtube.com/watch?v=sxxQIZVTlPU
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=Bgoe2kYFyiQ
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=THYfazxxK_0
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=Cp4FR2igXuw
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=O7LtqEEQv34
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=PY2FQ-LgmYo
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=OrUqC6zZk94
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=PHBJpCjq50E
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=VI4ssGtfdxw
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=rNQ-YBR3VtM
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=Rn0xXo1gwGY
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=0IMRxMKbZjU
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=w500hUEEAsw
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=fZB-ptAnoQc
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=DvC3MdUzjmM
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=udm94_ls9vo
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=-5aaJJQFvOg
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=CHXD9k19q1Y
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=H6s9HUxm2NI
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=1kL1VHNwUnc
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=OaJLcwvj-S8
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=IlkBLwl4aBM
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=oKJWhDWditU
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=hcjP5PbW9Gw
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=JcVDXHeD59c
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=6uGQ_ypTw08
+2024-11-07 17:17:22,203 - INFO - Added video from playlist: https://youtube.com/watch?v=M-MdP-9xACc
+2024-11-07 17:17:22,203 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=0JtISvgf2Aw', 'https://youtube.com/watch?v=PHBJpCjq50E', 'https://youtube.com/watch?v=K7MOOwwoq60', 'https://youtube.com/watch?v=udm94_ls9vo', 'https://youtube.com/watch?v=uhJv3BYH0zo', 'https://youtube.com/watch?v=Cp4FR2igXuw', 'https://youtube.com/watch?v=DIqngAXHzTI', 'https://youtube.com/watch?v=cWGE9Gi0bB0', 'https://youtube.com/watch?v=L69X-e3ftN8', 'https://youtube.com/watch?v=PY2FQ-LgmYo', 'https://youtube.com/watch?v=hcjP5PbW9Gw', 'https://youtube.com/watch?v=-5aaJJQFvOg', 'https://youtube.com/watch?v=OrUqC6zZk94', 'https://youtube.com/watch?v=WBtVjjLtEY8', 'https://youtube.com/watch?v=OaJLcwvj-S8', 'https://youtube.com/watch?v=Bgoe2kYFyiQ', 'https://youtube.com/watch?v=BI5_hpUxDrM', 'https://youtube.com/watch?v=jO2_3pVd5k0', 'https://youtube.com/watch?v=M-MdP-9xACc', 'https://youtube.com/watch?v=RRKXQE52l2Q', 'https://youtube.com/watch?v=fZB-ptAnoQc', 'https://youtube.com/watch?v=fcYJA8qvW7k', 'https://youtube.com/watch?v=lPCxm9kwO98', 'https://youtube.com/watch?v=PW2o0iVqikg', 'https://youtube.com/watch?v=Rn0xXo1gwGY', 'https://youtube.com/watch?v=6uGQ_ypTw08', 'https://youtube.com/watch?v=BK9p2RWujtw', 'https://youtube.com/watch?v=3JmL6Z6AiRA', 'https://youtube.com/watch?v=JB6ovp0qeMA', 'https://youtube.com/watch?v=JcVDXHeD59c', 'https://youtube.com/watch?v=qcjYSJDGVu0', 'https://youtube.com/watch?v=sxxQIZVTlPU', 'https://youtube.com/watch?v=t8BhjRIEVeQ', 'https://youtube.com/watch?v=oKJWhDWditU', 'https://youtube.com/watch?v=5-W7iXPfdvc', 'https://youtube.com/watch?v=VI4ssGtfdxw', 'https://youtube.com/watch?v=H6s9HUxm2NI', 'https://youtube.com/watch?v=hYJWVIHc0xc', 'https://youtube.com/watch?v=O7LtqEEQv34', 'https://youtube.com/watch?v=CHXD9k19q1Y', 'https://youtube.com/watch?v=YmHMcZXf_WA', 'https://youtube.com/watch?v=JLER_EhWnqE', 'https://youtube.com/watch?v=x58EWY5kGQo', 'https://youtube.com/watch?v=IzxAs9KbAmk', 'https://youtube.com/watch?v=pBk0VFLz9_s', 'https://youtube.com/watch?v=w500hUEEAsw', 'https://youtube.com/watch?v=jxXlNP2-KVs', 'https://youtube.com/watch?v=1kL1VHNwUnc', 'https://youtube.com/watch?v=THYfazxxK_0', 'https://youtube.com/watch?v=IlkBLwl4aBM', 'https://youtube.com/watch?v=0IMRxMKbZjU', 'https://youtube.com/watch?v=ZHSGTe1FUAg', 'https://youtube.com/watch?v=JUJS0UMl0c8', 'https://youtube.com/watch?v=DvC3MdUzjmM', 'https://youtube.com/watch?v=NeNoqyh8r8Q', 'https://youtube.com/watch?v=emT4XhB73UA', 'https://youtube.com/watch?v=IfLnhK80STE', 'https://youtube.com/watch?v=rNQ-YBR3VtM']
+2024-11-07 17:19:34,447 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 17:19:34,447 - INFO - Validated link: https://www.youtube.com/watch?v=V0X-SWiDr1g&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 17:19:34,448 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=V0X-SWiDr1g&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 17:19:34,763 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 17:19:34,763 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 17:19:34,763 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 17:19:34,764 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 17:19:34,764 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=MMvlxSupSVE', 'https://youtube.com/watch?v=B-D-Nmz3_A4', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=-_PVmM_R7Hg', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=t0fn0Q0DB0E', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=icfedTCQ93w', 'https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=Q6FarZpy67M', 'https://youtube.com/watch?v=kA8LEODXZLw', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=V0X-SWiDr1g']
+2024-11-07 17:19:56,458 - INFO - Found downloaded MP4: BABYXSOSA-_EVERYWHEREIGO_PROD._GAWD.mp4
+2024-11-07 17:19:56,458 - INFO - Found downloaded MP4: Banking_On_Me.mp4
+2024-11-07 17:19:56,458 - INFO - Found downloaded MP4: Best_Friend.mp4
+2024-11-07 17:19:56,458 - INFO - Found downloaded MP4: Body.mp4
+2024-11-07 17:19:56,458 - INFO - Found downloaded MP4: Break_It_Off.mp4
+2024-11-07 17:19:56,458 - INFO - Found downloaded MP4: Broken_Clocks.mp4
+2024-11-07 17:19:56,458 - INFO - Found downloaded MP4: C_U_Girl.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: Dark_Red.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: HAUNTED_Pt._1.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: High_For_Hours.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: HONEST.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: Infrunami.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: No_Love.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: Pain.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: Rex_Orange_County_-_Sunflower_Official_Audio.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: Ride.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: Righteous_Minds.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: Some.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: St._Tropez.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: Summer_Walker_-_Tonight_Lyric_Video.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: Thinkin_Bout_You.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: trademark_usa.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: Turn_Your_Phone_Off.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: United_In_Grief.mp4
+2024-11-07 17:19:56,459 - INFO - Found downloaded MP4: What_s_Next.mp4
+2024-11-07 17:27:11,129 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 17:27:11,130 - INFO - Validated link: https://www.youtube.com/watch?v=Q6FarZpy67M&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 17:27:11,130 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=Q6FarZpy67M&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 17:27:11,445 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 17:27:11,445 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=V0X-SWiDr1g', 'https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=MMvlxSupSVE', 'https://youtube.com/watch?v=icfedTCQ93w', 'https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=-_PVmM_R7Hg', 'https://youtube.com/watch?v=Q6FarZpy67M', 'https://youtube.com/watch?v=B-D-Nmz3_A4', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=kA8LEODXZLw', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=t0fn0Q0DB0E']
+2024-11-07 17:27:11,450 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 17:27:11,450 - INFO - Validated link: https://www.youtube.com/watch?v=Q6FarZpy67M&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 17:27:11,450 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=Q6FarZpy67M&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 17:27:11,721 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 17:27:11,722 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 17:27:11,722 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 17:27:11,722 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 17:27:11,722 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 17:27:11,722 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 17:27:11,722 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 17:27:11,722 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=V0X-SWiDr1g', 'https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=MMvlxSupSVE', 'https://youtube.com/watch?v=icfedTCQ93w', 'https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=-_PVmM_R7Hg', 'https://youtube.com/watch?v=Q6FarZpy67M', 'https://youtube.com/watch?v=B-D-Nmz3_A4', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=kA8LEODXZLw', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=t0fn0Q0DB0E']
+2024-11-07 17:28:29,162 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 17:28:29,163 - INFO - Validated link: https://www.youtube.com/watch?v=Q6FarZpy67M&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 17:28:29,163 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=Q6FarZpy67M&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 17:28:29,470 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 17:28:29,471 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 17:28:29,471 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=B-D-Nmz3_A4', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=t0fn0Q0DB0E', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=Q6FarZpy67M', 'https://youtube.com/watch?v=-_PVmM_R7Hg', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=kA8LEODXZLw', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=MMvlxSupSVE', 'https://youtube.com/watch?v=V0X-SWiDr1g', 'https://youtube.com/watch?v=icfedTCQ93w']
+2024-11-07 17:30:48,377 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 17:30:48,378 - INFO - Validated link: https://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 17:30:48,378 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 17:30:48,687 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 17:30:48,687 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=icfedTCQ93w', 'https://youtube.com/watch?v=MMvlxSupSVE', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=V0X-SWiDr1g', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=B-D-Nmz3_A4', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=t0fn0Q0DB0E', 'https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=kA8LEODXZLw', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=-_PVmM_R7Hg', 'https://youtube.com/watch?v=Q6FarZpy67M']
+2024-11-07 17:37:16,093 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 17:37:16,094 - INFO - Validated link: https://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 17:37:16,094 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 17:37:16,423 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 17:37:16,424 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 17:37:16,424 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=MMvlxSupSVE', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=B-D-Nmz3_A4', 'https://youtube.com/watch?v=-_PVmM_R7Hg', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=V0X-SWiDr1g', 'https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=icfedTCQ93w', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=t0fn0Q0DB0E', 'https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=kA8LEODXZLw', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=Q6FarZpy67M']
+2024-11-07 17:44:41,942 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 17:44:41,943 - INFO - Validated link: https://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 17:44:41,943 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 17:44:42,261 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 17:44:42,262 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 17:44:42,262 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=t0fn0Q0DB0E', 'https://youtube.com/watch?v=Q6FarZpy67M', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=-_PVmM_R7Hg', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=kA8LEODXZLw', 'https://youtube.com/watch?v=V0X-SWiDr1g', 'https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=MMvlxSupSVE', 'https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=icfedTCQ93w', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=B-D-Nmz3_A4']
+2024-11-07 17:45:01,582 - INFO - Found downloaded MP4: BABYXSOSA-_EVERYWHEREIGO_PROD._GAWD.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: Banking_On_Me.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: Best_Friend.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: Body.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: Break_It_Off.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: Broken_Clocks.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: C_U_Girl.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: Dark_Red.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: HAUNTED_Pt._1.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: High_For_Hours.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: HONEST.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: Infrunami.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: No_Love.mp4
+2024-11-07 17:45:01,583 - INFO - Found downloaded MP4: Pain.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: Rex_Orange_County_-_Sunflower_Official_Audio.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: Ride.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: Righteous_Minds.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: Some.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: St._Tropez.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: Summer_Walker_-_Tonight_Lyric_Video.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: Thinkin_Bout_You.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: trademark_usa.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: Turn_Your_Phone_Off.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: United_In_Grief.mp4
+2024-11-07 17:45:01,584 - INFO - Found downloaded MP4: What_s_Next.mp4
+2024-11-07 17:52:21,465 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 17:52:21,465 - INFO - Validated link: ttps://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 17:52:21,466 - INFO - Checked if link is playlist: ttps://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 17:52:21,788 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 17:52:21,794 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 17:52:21,794 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 17:52:21,794 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 17:52:21,794 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 17:52:21,794 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 17:52:21,794 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 17:52:21,794 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 17:52:21,794 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=Q6FarZpy67M', 'https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=icfedTCQ93w', 'https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=V0X-SWiDr1g', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=kA8LEODXZLw', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=B-D-Nmz3_A4', 'https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=-_PVmM_R7Hg', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=t0fn0Q0DB0E', 'https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=MMvlxSupSVE']
+2024-11-07 17:54:06,583 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 17:54:06,584 - INFO - Validated link: ttps://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 17:54:06,584 - INFO - Checked if link is playlist: ttps://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 17:54:06,919 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 17:54:06,920 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 17:54:06,920 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 17:54:06,920 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 17:54:06,920 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 17:54:06,920 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 17:54:06,920 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 17:54:06,920 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 17:54:06,920 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=MMvlxSupSVE', 'https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=icfedTCQ93w', 'https://youtube.com/watch?v=V0X-SWiDr1g', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=t0fn0Q0DB0E', 'https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=B-D-Nmz3_A4', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=Q6FarZpy67M', 'https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=kA8LEODXZLw', 'https://youtube.com/watch?v=-_PVmM_R7Hg']
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: BABYXSOSA-_EVERYWHEREIGO_PROD._GAWD.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Banking_On_Me.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Best_Friend.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Body.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Break_It_Off.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Broken_Clocks.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: C_U_Girl.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Dark_Red.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: HAUNTED_Pt._1.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: High_For_Hours.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: HONEST.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Infrunami.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: No_Love.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Pain.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Rex_Orange_County_-_Sunflower_Official_Audio.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Ride.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Righteous_Minds.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Some.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: St._Tropez.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Summer_Walker_-_Tonight_Lyric_Video.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Thinkin_Bout_You.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: trademark_usa.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: Turn_Your_Phone_Off.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: United_In_Grief.mp4
+2024-11-07 17:54:24,931 - INFO - Found downloaded MP4: What_s_Next.mp4
+2024-11-07 18:02:55,549 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 18:02:55,550 - INFO - Validated link: ttps://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 18:02:55,551 - INFO - Checked if link is playlist: ttps://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 18:02:55,871 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 18:02:55,872 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 18:02:55,872 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=icfedTCQ93w', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=V0X-SWiDr1g', 'https://youtube.com/watch?v=-_PVmM_R7Hg', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=MMvlxSupSVE', 'https://youtube.com/watch?v=t0fn0Q0DB0E', 'https://youtube.com/watch?v=Q6FarZpy67M', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=B-D-Nmz3_A4', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=kA8LEODXZLw']
+2024-11-07 18:03:14,866 - INFO - Found downloaded MP4: BABYXSOSA-_EVERYWHEREIGO_PROD._GAWD.mp4
+2024-11-07 18:03:14,866 - INFO - Found downloaded MP4: Banking_On_Me.mp4
+2024-11-07 18:03:14,866 - INFO - Found downloaded MP4: Best_Friend.mp4
+2024-11-07 18:03:14,866 - INFO - Found downloaded MP4: Body.mp4
+2024-11-07 18:03:14,866 - INFO - Found downloaded MP4: Break_It_Off.mp4
+2024-11-07 18:03:14,866 - INFO - Found downloaded MP4: Broken_Clocks.mp4
+2024-11-07 18:03:14,866 - INFO - Found downloaded MP4: C_U_Girl.mp4
+2024-11-07 18:03:14,866 - INFO - Found downloaded MP4: Dark_Red.mp4
+2024-11-07 18:03:14,866 - INFO - Found downloaded MP4: HAUNTED_Pt._1.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: High_For_Hours.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: HONEST.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: Infrunami.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: No_Love.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: Pain.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: Rex_Orange_County_-_Sunflower_Official_Audio.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: Ride.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: Righteous_Minds.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: Some.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: St._Tropez.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: Summer_Walker_-_Tonight_Lyric_Video.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: Thinkin_Bout_You.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: trademark_usa.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: Turn_Your_Phone_Off.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: United_In_Grief.mp4
+2024-11-07 18:03:14,867 - INFO - Found downloaded MP4: What_s_Next.mp4
+2024-11-07 18:17:10,069 - INFO - YoutubeConverter initialized with download_dir: C:/Users/Gabri/Music/Lurders and conversion_type: MP3
+2024-11-07 18:17:10,069 - INFO - Validated link: ttps://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2
+2024-11-07 18:17:10,069 - INFO - Checked if link is playlist: ttps://www.youtube.com/watch?v=Ol0-9Ob-QNk&list=PLc9n7cqrwBCv5gTPA0UlwbBS0eO6t_bE2, result: True
+2024-11-07 18:17:10,371 - INFO - Added video from playlist: https://youtube.com/watch?v=V0X-SWiDr1g
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=Q6FarZpy67M
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=Ol0-9Ob-QNk
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=Wz_5AFguGCU
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=MMvlxSupSVE
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=t0fn0Q0DB0E
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=aUb7UtjyRmw
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=icfedTCQ93w
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=QBJ3Mb2M7Tk
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=cofmqlYOAzU
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=JndNN8pOaIo
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=kA8LEODXZLw
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=b_DON6Qvnx4
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=B-D-Nmz3_A4
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=IwgoypaFtis
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=Tn1S5Zu8zQc
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=-_PVmM_R7Hg
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=9-QsLBtiLss
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=WjQKF1eD2Zs
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=6AYt_FkJ8Aw
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=zYShREjmZ9k
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=EVzn9Mvo_Vs
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=HDpEMB-bR50
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=qJ7wOEz6OUE
+2024-11-07 18:17:10,372 - INFO - Added video from playlist: https://youtube.com/watch?v=BGmnVEtD4BQ
+2024-11-07 18:17:10,372 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=cofmqlYOAzU', 'https://youtube.com/watch?v=icfedTCQ93w', 'https://youtube.com/watch?v=BGmnVEtD4BQ', 'https://youtube.com/watch?v=WjQKF1eD2Zs', 'https://youtube.com/watch?v=zYShREjmZ9k', 'https://youtube.com/watch?v=Wz_5AFguGCU', 'https://youtube.com/watch?v=JndNN8pOaIo', 'https://youtube.com/watch?v=V0X-SWiDr1g', 'https://youtube.com/watch?v=-_PVmM_R7Hg', 'https://youtube.com/watch?v=QBJ3Mb2M7Tk', 'https://youtube.com/watch?v=IwgoypaFtis', 'https://youtube.com/watch?v=6AYt_FkJ8Aw', 'https://youtube.com/watch?v=aUb7UtjyRmw', 'https://youtube.com/watch?v=EVzn9Mvo_Vs', 'https://youtube.com/watch?v=HDpEMB-bR50', 'https://youtube.com/watch?v=Ol0-9Ob-QNk', 'https://youtube.com/watch?v=9-QsLBtiLss', 'https://youtube.com/watch?v=b_DON6Qvnx4', 'https://youtube.com/watch?v=MMvlxSupSVE', 'https://youtube.com/watch?v=t0fn0Q0DB0E', 'https://youtube.com/watch?v=Q6FarZpy67M', 'https://youtube.com/watch?v=qJ7wOEz6OUE', 'https://youtube.com/watch?v=B-D-Nmz3_A4', 'https://youtube.com/watch?v=Tn1S5Zu8zQc', 'https://youtube.com/watch?v=kA8LEODXZLw']
+2024-11-07 18:43:26,185 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:43:53,282 - INFO - Validated link: https://www.youtube.com/playlist?list=PL1234567890
+2024-11-07 18:44:00,258 - INFO - Checked if link is playlist: https://www.youtube.com/playlist?list=PL1234567890, result: True
+2024-11-07 18:44:03,086 - INFO - Converted playlists to unique video links: []
+2024-11-07 18:44:22,247 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:44:25,363 - INFO - Validated link: https://www.youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 18:44:25,408 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: False
+2024-11-07 18:44:25,408 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: True
+2024-11-07 18:44:25,408 - INFO - Added video link: https://youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 18:44:25,409 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=4KCVbn3SIak']
+2024-11-07 18:45:08,502 - INFO - Found downloaded MP4: QUEM_E_MAIS_RICO_CASIMIRO_OU_ALANZOKA_Cortes_do_Casimito.mp4
+2024-11-07 18:46:01,910 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:47:39,341 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:47:39,344 - INFO - Validated link: https://www.youtube.com/playlist?list=PL1234567890
+2024-11-07 18:47:39,344 - INFO - Checked if link is playlist: https://www.youtube.com/playlist?list=PL1234567890, result: True
+2024-11-07 18:47:39,344 - INFO - Converted playlists to unique video links: []
+2024-11-07 18:47:39,352 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:47:39,353 - INFO - Validated link: https://www.youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 18:47:39,353 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: False
+2024-11-07 18:47:39,353 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: True
+2024-11-07 18:47:39,353 - INFO - Added video link: https://youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 18:47:39,353 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=4KCVbn3SIak']
+2024-11-07 18:47:50,492 - INFO - Found downloaded MP4: QUEM_E_MAIS_RICO_CASIMIRO_OU_ALANZOKA_Cortes_do_Casimito.mp4
+2024-11-07 18:48:11,475 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:48:11,478 - INFO - Validated link: https://www.youtube.com/playlist?list=PL1234567890
+2024-11-07 18:48:11,478 - INFO - Checked if link is playlist: https://www.youtube.com/playlist?list=PL1234567890, result: True
+2024-11-07 18:48:11,479 - INFO - Converted playlists to unique video links: []
+2024-11-07 18:48:59,442 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:48:59,446 - INFO - Validated link: https://www.youtube.com/playlist?list=PL1234567890
+2024-11-07 18:48:59,446 - INFO - Checked if link is playlist: https://www.youtube.com/playlist?list=PL1234567890, result: True
+2024-11-07 18:48:59,447 - INFO - Converted playlists to unique video links: []
+2024-11-07 18:49:12,515 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:49:12,520 - INFO - Validated link: https://www.youtube.com/playlist?list=PL1234567890
+2024-11-07 18:49:12,520 - INFO - Checked if link is playlist: https://www.youtube.com/playlist?list=PL1234567890, result: True
+2024-11-07 18:49:12,521 - INFO - Converted playlists to unique video links: []
+2024-11-07 18:50:20,697 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:51:13,399 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:51:13,405 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:51:30,636 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:51:34,581 - INFO - Validated link: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL9tY0BWXOZFvxqMV_kZboiIMnKsYzH5al
+2024-11-07 18:51:34,581 - INFO - Validated link: https://www.youtube.com/watch?v=p2AWYanIHkc
+2024-11-07 18:51:35,146 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL9tY0BWXOZFvxqMV_kZboiIMnKsYzH5al, result: True
+2024-11-07 18:51:35,484 - INFO - Added video from playlist: https://youtube.com/watch?v=dQw4w9WgXcQ
+2024-11-07 18:51:35,484 - INFO - Added video from playlist: https://youtube.com/watch?v=Zi_XLOBDo_Y
+2024-11-07 18:51:35,484 - INFO - Added video from playlist: https://youtube.com/watch?v=1w7OgIMMRc4
+2024-11-07 18:51:35,484 - INFO - Added video from playlist: https://youtube.com/watch?v=FTQbiNvZqaY
+2024-11-07 18:51:35,484 - INFO - Added video from playlist: https://youtube.com/watch?v=sOnqjkJTMaA
+2024-11-07 18:51:35,484 - INFO - Added video from playlist: https://youtube.com/watch?v=oRdxUFDoQe0
+2024-11-07 18:51:35,484 - INFO - Added video from playlist: https://youtube.com/watch?v=xvaEJzoaYZk
+2024-11-07 18:51:35,484 - INFO - Added video from playlist: https://youtube.com/watch?v=lDK9QqIzhwk
+2024-11-07 18:51:35,484 - INFO - Added video from playlist: https://youtube.com/watch?v=btPJPFnesV4
+2024-11-07 18:51:35,484 - INFO - Added video from playlist: https://youtube.com/watch?v=PIb6AZdTr-A
+2024-11-07 18:51:35,485 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=p2AWYanIHkc, result: False
+2024-11-07 18:51:35,485 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=p2AWYanIHkc, result: True
+2024-11-07 18:51:35,485 - INFO - Added video link: https://youtube.com/watch?v=p2AWYanIHkc
+2024-11-07 18:51:35,485 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=btPJPFnesV4', 'https://youtube.com/watch?v=1w7OgIMMRc4', 'https://youtube.com/watch?v=xvaEJzoaYZk', 'https://youtube.com/watch?v=lDK9QqIzhwk', 'https://youtube.com/watch?v=sOnqjkJTMaA', 'https://youtube.com/watch?v=p2AWYanIHkc', 'https://youtube.com/watch?v=dQw4w9WgXcQ', 'https://youtube.com/watch?v=FTQbiNvZqaY', 'https://youtube.com/watch?v=PIb6AZdTr-A', 'https://youtube.com/watch?v=Zi_XLOBDo_Y', 'https://youtube.com/watch?v=oRdxUFDoQe0']
+2024-11-07 18:51:53,483 - INFO - Found downloaded MP4: 1_MINUTE_COUNTDOWN_TIMER_60_SECONDS_TIMER.mp4
+2024-11-07 18:51:53,484 - INFO - Found downloaded MP4: Bon_Jovi_-_Livin_On_A_Prayer.mp4
+2024-11-07 18:51:53,484 - INFO - Found downloaded MP4: Cyndi_Lauper_-_Girls_Just_Want_To_Have_Fun_Official_Video.mp4
+2024-11-07 18:51:53,484 - INFO - Found downloaded MP4: Guns_N_Roses_-_Sweet_Child_O_Mine_Official_Music_Video.mp4
+2024-11-07 18:51:53,484 - INFO - Found downloaded MP4: Michael_Jackson_-_Beat_It_Official_4K_Video.mp4
+2024-11-07 18:51:53,484 - INFO - Found downloaded MP4: Michael_Jackson_-_Billie_Jean_Official_Video.mp4
+2024-11-07 18:51:53,485 - INFO - Found downloaded MP4: Michael_Jackson_-_Thriller_Official_4K_Video.mp4
+2024-11-07 18:51:53,485 - INFO - Found downloaded MP4: Rick_Astley_-_Never_Gonna_Give_You_Up_Official_Music_Video.mp4
+2024-11-07 18:51:53,485 - INFO - Found downloaded MP4: Steve_Earle_-_Copperhead_Road_Official_Music_Video.mp4
+2024-11-07 18:51:53,485 - INFO - Found downloaded MP4: Survivor_-_Eye_Of_The_Tiger_Official_HD_Video.mp4
+2024-11-07 18:51:53,485 - INFO - Found downloaded MP4: Toto_-_Africa_Official_HD_Video.mp4
+2024-11-07 18:52:31,866 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:52:35,021 - INFO - Validated link: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL9tY0BWXOZFvxqMV_kZboiIMnKsYzH5al
+2024-11-07 18:52:35,021 - INFO - Validated link: https://www.youtube.com/watch?v=p2AWYanIHkc
+2024-11-07 18:52:35,022 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL9tY0BWXOZFvxqMV_kZboiIMnKsYzH5al, result: True
+2024-11-07 18:52:35,321 - INFO - Added video from playlist: https://youtube.com/watch?v=dQw4w9WgXcQ
+2024-11-07 18:52:35,321 - INFO - Added video from playlist: https://youtube.com/watch?v=Zi_XLOBDo_Y
+2024-11-07 18:52:35,321 - INFO - Added video from playlist: https://youtube.com/watch?v=1w7OgIMMRc4
+2024-11-07 18:52:35,321 - INFO - Added video from playlist: https://youtube.com/watch?v=FTQbiNvZqaY
+2024-11-07 18:52:35,321 - INFO - Added video from playlist: https://youtube.com/watch?v=sOnqjkJTMaA
+2024-11-07 18:52:35,321 - INFO - Added video from playlist: https://youtube.com/watch?v=oRdxUFDoQe0
+2024-11-07 18:52:35,322 - INFO - Added video from playlist: https://youtube.com/watch?v=xvaEJzoaYZk
+2024-11-07 18:52:35,322 - INFO - Added video from playlist: https://youtube.com/watch?v=lDK9QqIzhwk
+2024-11-07 18:52:35,322 - INFO - Added video from playlist: https://youtube.com/watch?v=btPJPFnesV4
+2024-11-07 18:52:35,322 - INFO - Added video from playlist: https://youtube.com/watch?v=PIb6AZdTr-A
+2024-11-07 18:52:35,322 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=p2AWYanIHkc, result: False
+2024-11-07 18:52:35,322 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=p2AWYanIHkc, result: True
+2024-11-07 18:52:35,322 - INFO - Added video link: https://youtube.com/watch?v=p2AWYanIHkc
+2024-11-07 18:52:35,322 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=dQw4w9WgXcQ', 'https://youtube.com/watch?v=oRdxUFDoQe0', 'https://youtube.com/watch?v=1w7OgIMMRc4', 'https://youtube.com/watch?v=PIb6AZdTr-A', 'https://youtube.com/watch?v=FTQbiNvZqaY', 'https://youtube.com/watch?v=xvaEJzoaYZk', 'https://youtube.com/watch?v=lDK9QqIzhwk', 'https://youtube.com/watch?v=p2AWYanIHkc', 'https://youtube.com/watch?v=sOnqjkJTMaA', 'https://youtube.com/watch?v=Zi_XLOBDo_Y', 'https://youtube.com/watch?v=btPJPFnesV4']
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: 1_MINUTE_COUNTDOWN_TIMER_60_SECONDS_TIMER.mp4
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: Bon_Jovi_-_Livin_On_A_Prayer.mp4
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: Cyndi_Lauper_-_Girls_Just_Want_To_Have_Fun_Official_Video.mp4
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: Guns_N_Roses_-_Sweet_Child_O_Mine_Official_Music_Video.mp4
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: Michael_Jackson_-_Beat_It_Official_4K_Video.mp4
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: Michael_Jackson_-_Billie_Jean_Official_Video.mp4
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: Michael_Jackson_-_Thriller_Official_4K_Video.mp4
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: Rick_Astley_-_Never_Gonna_Give_You_Up_Official_Music_Video.mp4
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: Steve_Earle_-_Copperhead_Road_Official_Music_Video.mp4
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: Survivor_-_Eye_Of_The_Tiger_Official_HD_Video.mp4
+2024-11-07 18:52:47,920 - INFO - Found downloaded MP4: Toto_-_Africa_Official_HD_Video.mp4
+2024-11-07 18:52:47,929 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:52:47,931 - INFO - Validated link: https://www.youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 18:52:47,931 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: False
+2024-11-07 18:52:47,931 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: True
+2024-11-07 18:52:47,931 - INFO - Added video link: https://youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 18:52:47,931 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=4KCVbn3SIak']
+2024-11-07 18:52:57,488 - INFO - Found downloaded MP4: QUEM_E_MAIS_RICO_CASIMIRO_OU_ALANZOKA_Cortes_do_Casimito.mp4
+2024-11-07 18:54:53,267 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:54:53,270 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:55:10,387 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:55:10,388 - INFO - Validated link: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL9tY0BWXOZFvxqMV_kZboiIMnKsYzH5al
+2024-11-07 18:55:10,388 - INFO - Validated link: https://www.youtube.com/watch?v=p2AWYanIHkc
+2024-11-07 18:55:10,388 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL9tY0BWXOZFvxqMV_kZboiIMnKsYzH5al, result: True
+2024-11-07 18:55:10,712 - INFO - Added video from playlist: https://youtube.com/watch?v=dQw4w9WgXcQ
+2024-11-07 18:55:10,712 - INFO - Added video from playlist: https://youtube.com/watch?v=Zi_XLOBDo_Y
+2024-11-07 18:55:10,712 - INFO - Added video from playlist: https://youtube.com/watch?v=1w7OgIMMRc4
+2024-11-07 18:55:10,712 - INFO - Added video from playlist: https://youtube.com/watch?v=FTQbiNvZqaY
+2024-11-07 18:55:10,712 - INFO - Added video from playlist: https://youtube.com/watch?v=sOnqjkJTMaA
+2024-11-07 18:55:10,713 - INFO - Added video from playlist: https://youtube.com/watch?v=oRdxUFDoQe0
+2024-11-07 18:55:10,713 - INFO - Added video from playlist: https://youtube.com/watch?v=xvaEJzoaYZk
+2024-11-07 18:55:10,713 - INFO - Added video from playlist: https://youtube.com/watch?v=lDK9QqIzhwk
+2024-11-07 18:55:10,713 - INFO - Added video from playlist: https://youtube.com/watch?v=btPJPFnesV4
+2024-11-07 18:55:10,713 - INFO - Added video from playlist: https://youtube.com/watch?v=PIb6AZdTr-A
+2024-11-07 18:55:10,713 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=p2AWYanIHkc, result: False
+2024-11-07 18:55:10,713 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=p2AWYanIHkc, result: True
+2024-11-07 18:55:10,713 - INFO - Added video link: https://youtube.com/watch?v=p2AWYanIHkc
+2024-11-07 18:55:10,713 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=FTQbiNvZqaY', 'https://youtube.com/watch?v=p2AWYanIHkc', 'https://youtube.com/watch?v=oRdxUFDoQe0', 'https://youtube.com/watch?v=xvaEJzoaYZk', 'https://youtube.com/watch?v=lDK9QqIzhwk', 'https://youtube.com/watch?v=PIb6AZdTr-A', 'https://youtube.com/watch?v=dQw4w9WgXcQ', 'https://youtube.com/watch?v=1w7OgIMMRc4', 'https://youtube.com/watch?v=btPJPFnesV4', 'https://youtube.com/watch?v=sOnqjkJTMaA', 'https://youtube.com/watch?v=Zi_XLOBDo_Y']
+2024-11-07 18:55:22,702 - INFO - Found downloaded MP4: 1_MINUTE_COUNTDOWN_TIMER_60_SECONDS_TIMER.mp4
+2024-11-07 18:55:22,702 - INFO - Found downloaded MP4: Bon_Jovi_-_Livin_On_A_Prayer.mp4
+2024-11-07 18:55:22,703 - INFO - Found downloaded MP4: Cyndi_Lauper_-_Girls_Just_Want_To_Have_Fun_Official_Video.mp4
+2024-11-07 18:55:22,703 - INFO - Found downloaded MP4: Guns_N_Roses_-_Sweet_Child_O_Mine_Official_Music_Video.mp4
+2024-11-07 18:55:22,703 - INFO - Found downloaded MP4: Michael_Jackson_-_Beat_It_Official_4K_Video.mp4
+2024-11-07 18:55:22,703 - INFO - Found downloaded MP4: Michael_Jackson_-_Billie_Jean_Official_Video.mp4
+2024-11-07 18:55:22,703 - INFO - Found downloaded MP4: Michael_Jackson_-_Thriller_Official_4K_Video.mp4
+2024-11-07 18:55:22,703 - INFO - Found downloaded MP4: Rick_Astley_-_Never_Gonna_Give_You_Up_Official_Music_Video.mp4
+2024-11-07 18:55:22,703 - INFO - Found downloaded MP4: Steve_Earle_-_Copperhead_Road_Official_Music_Video.mp4
+2024-11-07 18:55:22,703 - INFO - Found downloaded MP4: Survivor_-_Eye_Of_The_Tiger_Official_HD_Video.mp4
+2024-11-07 18:55:22,703 - INFO - Found downloaded MP4: Toto_-_Africa_Official_HD_Video.mp4
+2024-11-07 18:55:22,712 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 18:55:22,713 - INFO - Validated link: https://www.youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 18:55:22,713 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: False
+2024-11-07 18:55:22,713 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: True
+2024-11-07 18:55:22,713 - INFO - Added video link: https://youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 18:55:22,713 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=4KCVbn3SIak']
+2024-11-07 18:55:32,453 - INFO - Found downloaded MP4: QUEM_E_MAIS_RICO_CASIMIRO_OU_ALANZOKA_Cortes_do_Casimito.mp4
+2024-11-07 19:03:23,905 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 19:03:23,907 - INFO - Validated link: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL9tY0BWXOZFvxqMV_kZboiIMnKsYzH5al
+2024-11-07 19:03:23,907 - INFO - Validated link: https://www.youtube.com/watch?v=p2AWYanIHkc
+2024-11-07 19:03:23,907 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL9tY0BWXOZFvxqMV_kZboiIMnKsYzH5al, result: True
+2024-11-07 19:03:24,233 - INFO - Added video from playlist: https://youtube.com/watch?v=dQw4w9WgXcQ
+2024-11-07 19:03:24,233 - INFO - Added video from playlist: https://youtube.com/watch?v=Zi_XLOBDo_Y
+2024-11-07 19:03:24,233 - INFO - Added video from playlist: https://youtube.com/watch?v=1w7OgIMMRc4
+2024-11-07 19:03:24,233 - INFO - Added video from playlist: https://youtube.com/watch?v=FTQbiNvZqaY
+2024-11-07 19:03:24,233 - INFO - Added video from playlist: https://youtube.com/watch?v=sOnqjkJTMaA
+2024-11-07 19:03:24,233 - INFO - Added video from playlist: https://youtube.com/watch?v=oRdxUFDoQe0
+2024-11-07 19:03:24,234 - INFO - Added video from playlist: https://youtube.com/watch?v=xvaEJzoaYZk
+2024-11-07 19:03:24,234 - INFO - Added video from playlist: https://youtube.com/watch?v=lDK9QqIzhwk
+2024-11-07 19:03:24,234 - INFO - Added video from playlist: https://youtube.com/watch?v=btPJPFnesV4
+2024-11-07 19:03:24,234 - INFO - Added video from playlist: https://youtube.com/watch?v=PIb6AZdTr-A
+2024-11-07 19:03:24,234 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=p2AWYanIHkc, result: False
+2024-11-07 19:03:24,234 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=p2AWYanIHkc, result: True
+2024-11-07 19:03:24,234 - INFO - Added video link: https://youtube.com/watch?v=p2AWYanIHkc
+2024-11-07 19:03:24,234 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=sOnqjkJTMaA', 'https://youtube.com/watch?v=dQw4w9WgXcQ', 'https://youtube.com/watch?v=xvaEJzoaYZk', 'https://youtube.com/watch?v=p2AWYanIHkc', 'https://youtube.com/watch?v=1w7OgIMMRc4', 'https://youtube.com/watch?v=Zi_XLOBDo_Y', 'https://youtube.com/watch?v=FTQbiNvZqaY', 'https://youtube.com/watch?v=btPJPFnesV4', 'https://youtube.com/watch?v=oRdxUFDoQe0', 'https://youtube.com/watch?v=lDK9QqIzhwk', 'https://youtube.com/watch?v=PIb6AZdTr-A']
+2024-11-07 19:03:24,239 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 19:03:24,239 - INFO - Validated link: https://www.youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 19:03:24,239 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: False
+2024-11-07 19:03:24,240 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: True
+2024-11-07 19:03:24,240 - INFO - Added video link: https://youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 19:03:24,240 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=4KCVbn3SIak']
+2024-11-07 19:03:51,565 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 19:03:51,566 - INFO - Validated link: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL9tY0BWXOZFvxqMV_kZboiIMnKsYzH5al
+2024-11-07 19:03:51,566 - INFO - Validated link: https://www.youtube.com/watch?v=p2AWYanIHkc
+2024-11-07 19:03:51,567 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL9tY0BWXOZFvxqMV_kZboiIMnKsYzH5al, result: True
+2024-11-07 19:03:51,902 - INFO - Added video from playlist: https://youtube.com/watch?v=dQw4w9WgXcQ
+2024-11-07 19:03:51,902 - INFO - Added video from playlist: https://youtube.com/watch?v=Zi_XLOBDo_Y
+2024-11-07 19:03:51,902 - INFO - Added video from playlist: https://youtube.com/watch?v=1w7OgIMMRc4
+2024-11-07 19:03:51,902 - INFO - Added video from playlist: https://youtube.com/watch?v=FTQbiNvZqaY
+2024-11-07 19:03:51,902 - INFO - Added video from playlist: https://youtube.com/watch?v=sOnqjkJTMaA
+2024-11-07 19:03:51,902 - INFO - Added video from playlist: https://youtube.com/watch?v=oRdxUFDoQe0
+2024-11-07 19:03:51,902 - INFO - Added video from playlist: https://youtube.com/watch?v=xvaEJzoaYZk
+2024-11-07 19:03:51,902 - INFO - Added video from playlist: https://youtube.com/watch?v=lDK9QqIzhwk
+2024-11-07 19:03:51,902 - INFO - Added video from playlist: https://youtube.com/watch?v=btPJPFnesV4
+2024-11-07 19:03:51,902 - INFO - Added video from playlist: https://youtube.com/watch?v=PIb6AZdTr-A
+2024-11-07 19:03:51,902 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=p2AWYanIHkc, result: False
+2024-11-07 19:03:51,902 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=p2AWYanIHkc, result: True
+2024-11-07 19:03:51,902 - INFO - Added video link: https://youtube.com/watch?v=p2AWYanIHkc
+2024-11-07 19:03:51,902 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=Zi_XLOBDo_Y', 'https://youtube.com/watch?v=1w7OgIMMRc4', 'https://youtube.com/watch?v=btPJPFnesV4', 'https://youtube.com/watch?v=oRdxUFDoQe0', 'https://youtube.com/watch?v=xvaEJzoaYZk', 'https://youtube.com/watch?v=p2AWYanIHkc', 'https://youtube.com/watch?v=dQw4w9WgXcQ', 'https://youtube.com/watch?v=sOnqjkJTMaA', 'https://youtube.com/watch?v=lDK9QqIzhwk', 'https://youtube.com/watch?v=FTQbiNvZqaY', 'https://youtube.com/watch?v=PIb6AZdTr-A']
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: 1_MINUTE_COUNTDOWN_TIMER_60_SECONDS_TIMER.mp4
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: Bon_Jovi_-_Livin_On_A_Prayer.mp4
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: Cyndi_Lauper_-_Girls_Just_Want_To_Have_Fun_Official_Video.mp4
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: Guns_N_Roses_-_Sweet_Child_O_Mine_Official_Music_Video.mp4
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: Michael_Jackson_-_Beat_It_Official_4K_Video.mp4
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: Michael_Jackson_-_Billie_Jean_Official_Video.mp4
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: Michael_Jackson_-_Thriller_Official_4K_Video.mp4
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: Rick_Astley_-_Never_Gonna_Give_You_Up_Official_Music_Video.mp4
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: Steve_Earle_-_Copperhead_Road_Official_Music_Video.mp4
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: Survivor_-_Eye_Of_The_Tiger_Official_HD_Video.mp4
+2024-11-07 19:04:03,999 - INFO - Found downloaded MP4: Toto_-_Africa_Official_HD_Video.mp4
+2024-11-07 19:04:04,009 - INFO - YoutubeConverter initialized with download_dir: D:\Programming\Projeto-ConvertTubeX - Copia\test_downloadedFiles and conversion_type: MP3
+2024-11-07 19:04:04,009 - INFO - Validated link: https://www.youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 19:04:04,009 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: False
+2024-11-07 19:04:04,009 - INFO - Checked if link is playlist: https://www.youtube.com/watch?v=4KCVbn3SIak, result: True
+2024-11-07 19:04:04,009 - INFO - Added video link: https://youtube.com/watch?v=4KCVbn3SIak
+2024-11-07 19:04:04,009 - INFO - Converted playlists to unique video links: ['https://youtube.com/watch?v=4KCVbn3SIak']
+2024-11-07 19:04:13,113 - INFO - Found downloaded MP4: QUEM_E_MAIS_RICO_CASIMIRO_OU_ALANZOKA_Cortes_do_Casimito.mp4

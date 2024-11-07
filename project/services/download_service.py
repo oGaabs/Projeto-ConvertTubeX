@@ -8,6 +8,8 @@ from pytubefix import YouTube, Playlist
 from concurrent.futures import ProcessPoolExecutor
 
 class YoutubeConverter:
+    DEBUG_MODE = False
+    
     def __init__(self, download_dir, conversion_type):
         self.download_dir = download_dir
         self.conversion_type = conversion_type
@@ -24,7 +26,7 @@ class YoutubeConverter:
 
     def validate_links(self, links):
         for link in links:
-            if not ("youtu.be" in link) and not ("youtube.com/" in link) and not link.startswith("http"):
+            if "youtu.be" not in link and "youtube.com/" not in link and not link.startswith("http"):
                 logging.error("Invalid link: %s", link)
                 raise ValueError(f"Invalid link: {link}")
             logging.info("Validated link: %s", link)
@@ -82,25 +84,32 @@ class YoutubeConverter:
             logging.info("Downloaded video via pytubefix: %s", videos)
         except Exception as e:
             logging.error("Error with pytubefix, falling back to yt_dlp for URL: %s", videos)
+            
+            self.alternative_download_video(videos)
+                
+    def alternative_download_video(self, video_url):
+        ydl_opts = {
+            'outtmpl':  os.path.join(self.download_dir, '%(title)s.%(ext)s'),
+            'merge_output_format': 'mp4',
+            'format': 'bestaudio[ext=mp4]/mp4' if self.conversion_type == 'MP3' else 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4',
+            'concurrent_fragment_downloads': True,  # Enable multi-threaded fragment downloads
+            'concurrent_fragments': 4,  # Number of threads used for fragment downloads
+            'restrictfilenames': True,  # Restrict filenames to only ASCII characters, and avoid "&" and spaces
+            'retries': 3,
+        }
+        if self.DEBUG_MODE:
+            ydl_opts['verbose'] = True
+            ydl_opts['debug_printtraffic'] = True
+            ydl_opts['logger'] = logging.getLogger()
 
-            ydl_opts = {
-                'outtmpl':  os.path.join(self.download_dir, '%(title)s.%(ext)s'),
-                'merge_output_format': 'mp4',
-                'format': 'bestaudio[ext=mp4]/mp4' if self.conversion_type == 'MP3' else 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4',
-                'concurrent_fragment_downloads': True,  # Enable multi-threaded fragment downloads
-                'concurrent_fragments': 4,  # Number of threads used for fragment downloads
-                'restrictfilenames': True,  # Restrict filenames to only ASCII characters, and avoid "&" and spaces
-                'retries': 1,
-            }
-            logging.info("Configured yt_dlp options for %s conversion", self.conversion_type)
+        logging.info("Configured yt_dlp options for %s conversion", self.conversion_type)
 
-            try:
-                with YoutubeDL(ydl_opts) as ydl:
-                    ydl.download([videos])
-                logging.info("Downloaded video via yt_dlp: %s", videos)
-            except Exception as e:
-                logging.error("Error downloading with yt_dlp for URL: %s, error: %s", videos, str(e))
-
+        try:
+            with YoutubeDL(ydl_opts) as ydl:
+                ydl.download([video_url])
+            logging.info("Downloaded video via yt_dlp: %s", video_url)
+        except Exception as e:
+            logging.error("Error downloading with yt_dlp for URL: %s, error: %s", video_url, str(e))
 
     def download_videos(self, video_urls, progress_callback=None):
         with ProcessPoolExecutor() as executor:
@@ -123,6 +132,7 @@ class YoutubeConverter:
                 downloaded_files.append(os.path.join(self.download_dir, filename))
                 logging.info("Found downloaded MP4: %s", filename)
         return downloaded_files
+
 def main():
     download_dir = os.path.join(os.getcwd(), 'downloadedFiles')
     if os.path.exists(download_dir):
