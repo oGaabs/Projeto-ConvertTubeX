@@ -5,11 +5,10 @@ import concurrent.futures
 
 static_ffmpeg.add_paths(weak=True)
 
-variable_bit_rate = "-q:a 0"
 overwrite_output = "-y"
 input_file = "-i"
-exclude_video_streams = "-vn"
-include_audio_streams = "-map a"
+include_only_audio_streams = "-map 0:a"
+variable_bit_rate = "-q:a 0"
 
 class ConversionService:
     def __init__(self, max_workers=4):
@@ -20,8 +19,7 @@ class ConversionService:
             "ffmpeg",
             overwrite_output,
             input_file, input_filename, 
-            exclude_video_streams,
-            include_audio_streams,
+            include_only_audio_streams,
             variable_bit_rate,
             output_filename
         ]
