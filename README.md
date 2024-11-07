@@ -1,52 +1,34 @@
-[<div align=center><img alt="PyTube logo" src="https://assets.nickficano.com/gh-pytube.min.svg" width="400" height="129"/></div>][pytube]
+<div align=center><img alt="yt-dlp logo" src="https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg" width="400" height="129"/></div>
 
 # Projeto-ConvertTubeX
 
 ---
 
-A Simple YouTube converter made with [Pytube][pytube] and [MoviePy][moviepy].
+A powerful YouTube converter built with ytdp, offering seamless video download and conversion with a unique edge: 
 
-The [Pytube][pytube] is a genuine, lightweight, dependency-free Python library (and command-line utility) for downloading YouTube videos.
+Full PARALLEL (not concurrency) downloading and converting. 
+
+This feature is rarely found in general YouTube converters or ytdp tools, providing a faster and more efficient user experience.
 
 ---
 
 ## Installation
 
-This project requires an installation of Python 3.6 or greater, as well as pip. (Pip is typically bundled with Python installations.)
-
-
+This project requires an installation of Python 3.6 or greater.
 
 ### Install dependencies
 
-#### MoviePy:
+#### FFmpeg:
 
-* **Python 3.6+ or newer is required.**
-
+Make sure to install FFmpeg on your system. You can find installation instructions on the [FFmpeg official website](https://ffmpeg.org/download.html).
 
 ```sh-session
-pip install git+https://github.com/Zulko/moviepy.git@v2.0.0.dev2
+pip install -r requirements.txt
 ```
 
 ---
-
-#### Pytube:
-
-* **Python 3.6+ or newer is required.**
-
-* **Google is currently hard at work on the code that pytube uses for its API, so sometimes Google updates break the API/CODE, even if the developers try to find solutions for it, it's something that can take days to resolve, but can be faster because it is "open source"**
-
-```sh-session
-pip install git+https://github.com/ifahadone/pytube.git
-```
-
-So for Pytube I recommend downloading the version that is in this **[Git branch](https://github.com/ifahadone/pytube)**, because it's faster than approving the official branch, and sometimes we're out of time, but it can be more dangerous as they're experimental features, so it's up to you risk using the same
-
----
-
 
 #### Auto-PY-to-EXE:
-
-* **Python 3.6+ or newer is required.**
 
 For convert .py to .exe using a simple graphical interface and PyInstaller in Python.
 
@@ -83,9 +65,7 @@ This project is licensed under the [MIT License][license].
 [<img alt="License Icon MIT" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/License_icon-mit-88x31-2.svg" height="50" width="200"/>][license]
 
 ---
-[pytube]: https://github.com/pytube/pytube
-[moviepy]: https://github.com/Zulko/moviepy
-[github]: https://github.com/PuniGC
+[github]: https://github.com/oGaabs
 [linkedin]: https://www.linkedin.com/in/gabriel-santana-silva-1205461a3/
 [email]: mailto:gabriel04.ok@gmail.com
 [discord]: https://discords.com/bio/p/punidc
