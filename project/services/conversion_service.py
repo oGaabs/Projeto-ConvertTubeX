@@ -28,8 +28,16 @@ class ConversionService:
             command = [self.ffmpeg_path, *self.VERBOSE, *command]
         return command
 
-    def _convert_mp4_to_mp3(self, input_path):
-        output_path = os.path.splitext(input_path)[0] + ".mp3"
+    def _convert_mp4_to_mp3(self, input_path, output_dir):
+        if not os.path.exists(input_path):
+            print(f"File not found: {input_path}")
+            return None
+
+        if output_dir is None or not os.path.exists(output_dir):
+            output_path = os.path.splitext(input_path)[0] + ".mp3"
+        else:
+            output_path = os.path.join(output_dir, os.path.basename(input_path).replace(".mp4", ".mp3"))
+            
         ffmpeg_command = self.build_ffmpeg_command(input_path, output_path)
 
         try:
@@ -47,10 +55,10 @@ class ConversionService:
             print(f"Error converting {input_path} to MP3: {e}")
             return None
 
-    def convert_mp4_to_mp3(self, video_files, progress_callback=None):
+    def convert_mp4_to_mp3(self, video_files, progress_callback=None, output_dir=None):
         try:
             with concurrent.futures.ProcessPoolExecutor(max_workers=self.max_workers) as executor:
-                futures = [executor.submit(self._convert_mp4_to_mp3, file_path) for file_path in video_files]
+                futures = [executor.submit(self._convert_mp4_to_mp3, file_path, output_dir) for file_path in video_files]
                 for future in futures:
                     result = future.result()
                     if result and progress_callback:
