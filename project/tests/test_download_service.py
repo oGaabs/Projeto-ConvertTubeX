@@ -2,7 +2,6 @@ import unittest
 import os
 import shutil
 import sys
-from unittest.mock import patch, MagicMock
 
 # Local application imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../services')))

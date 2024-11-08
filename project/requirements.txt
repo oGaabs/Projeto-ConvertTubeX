@@ -1,4 +1,5 @@
-bcrypt==4.1.3
-static-ffmpeg==2.7
-pytube==15.0.0
-pytubefix==6.5.1
+cx_Freeze==7.2.4
+pytubefix==8.1.1
+Requests==2.32.3
+static_ffmpeg==2.7
+yt_dlp==2024.11.4
