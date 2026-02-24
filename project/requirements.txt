@@ -2,4 +2,4 @@ cx_Freeze==7.2.4
 pytubefix==8.1.1
 Requests==2.32.3
 static_ffmpeg==2.7
-yt_dlp==2024.11.4
+yt_dlp==2026.2.21
